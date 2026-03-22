@@ -1,0 +1,62 @@
+<!-- 从v1.1.2到v1.2.0进行大更新,具体内容已迁移至OptionsMenu.hx -->
+<menu name="DUSTIN MUSIC OPTIONS" desc="Dustin 歌曲设置(由可恶的360制作)
+    在这里调整你的Dustin歌曲选项
+    如Hitbox大小,练习模式等……
+    更有Hard Mode供你挑战!
+修改版版本 v1.2.3(2026.3)
+">
+    <menu name="HITBOX OPTIONS" desc="更改原版Hitbox、Hard Mode等选项" >
+    </menu>
+    <menu name="CHEAT OPTIONS" desc="更改一些作弊选项,如Botplay等……" >
+    </menu>
+</menu>
+
+<number id="decf" name="Desc Size" min="14" max="24" change="1" desc="调整设置中描述文本的大小(24为正常,14为默认且最小)
+需要退出设置页面以生效
+别问为什么一开始很小awa
+(因为有些功能描述太长了,如果默认24的话就会超出设置页面了,实测14是最合适的大小了,所以就默认14了)
+"/>
+
+<choice id="smdev" name="SDM" desc="Simple Development Mode:启用简易的开发者选项
+Play Only模式下:
+    按1键可直接结束当前歌曲
+    按2键可将歌曲速率降低 10%
+    按3键可将歌曲速率恢复默认
+    按4键可将歌曲速率提高 10%
+    按5键可加速歌曲(同时启用代打Botplay,就跟在B站长按屏幕加速一样!)
+Enabled模式下增加:
+    按7建进入歌曲编辑器(不推荐使用)
+Disabled模式:关闭
+">
+        <value name="Disabled" value="disabled"/>
+        <value name="Player Only" value="po"/>
+        <value name="Enabled" value="enabled"/>
+</choice>
+<choice id="pushhealth" name="Health" desc="开启敌人推条
+这个选项只有当你开启了GamePlay > OpponentModeAllowed 才会生效
+Enabled选项:
+    在事件监听上使用onDadHit()
+    不会推过你
+    只会在你血量较低时停止
+Hard选项:
+    在事件监听上使用onDadHit()
+    会推过你!
+    只会在你血量较低时停止
+Enabled-died选项:
+    在事件监听上使用onDadHit()
+    不会推过你
+    但如果你被推死了,就直接结束歌曲
+NightMare-died选项:
+    在事件监听上使用onDadHit()
+    比Enable-died更难
+    如果你被推死了,就直接结束歌曲
+Disabled选项:
+1.我太菜了,我不想被推条awa
+2.我没开启GamePlay > OpponentModeAllowed,所以这个选项对我来说没什么意义awa
+">
+        <value name="Disabled" value="disabled"/>
+        <value name="Enabled" value="enabled"/>
+        <value name="Hard" value="hard"/>
+        <value name="Enabled-died" value="endied"/>
+        <value name="NightMare-died" value="harddied"/>
+</choice>

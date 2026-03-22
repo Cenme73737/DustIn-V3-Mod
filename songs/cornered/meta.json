@@ -1,0 +1,35 @@
+{
+	"color": "#9271FD",
+	"customValues": {
+		"characterY": null,
+		"character": null,
+		"mainColor": null,
+		"credits": {
+			"CHART": "FROSTIC",
+			"BACKGROUND": "HLOARTS",
+			"SPRITES": "SAMUEL PASTEL, CHUF, HORRORSPINN",
+			"SONG": "SKIE, MAR MAR"
+		},
+		"customName": "两面受敌",
+		"titleCardSubtext": "* 由 Skie/pause(0.5)/\n* 合作. Mar Mar",
+		"gameover": {
+			"isMonster": false,
+			"quote": "我坚信你能行的， BOYFRIEND！",
+			"song": "cornered",
+			"sound": "gf"
+		},
+		"stats": "* 衫斯 55 攻击 46 防御\n* 他看起来异常的放松。\n* 隐约能听见他在 自言自语。",
+		"characterX": null
+	},
+	"opponentModeAllowed": false,
+	"icon": "cornered-sans",
+	"difficulties": [
+		"hard"
+	],
+	"coopAllowed": false,
+	"stepsPerBeat": 4,
+	"displayName": "cornered",
+	"beatsPerMeasure": 4,
+	"needsVoices": true,
+	"bpm": 120
+}

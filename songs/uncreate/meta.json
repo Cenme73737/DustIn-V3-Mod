@@ -1,0 +1,32 @@
+{
+	"opponentModeAllowed": false,
+	"icon": "ink-icon",
+	"difficulties": [
+		"hard"
+	],
+	"customValues": {
+		"customName": "破坏",
+		"credits": {
+			"SPRITES": "SAMUEL PASTEL, INKSUS",
+			"BACKGROUND": "NEF",
+			"CHART": "CURIOUS",
+			"SONG": "LEMONEMY"
+		},
+		"gameover": {
+			"quote": "京就让我手戋一1个人ㄔ寺待着！",
+			"isMonster": true,
+			"sound": "sans",
+			"song": "uncreate"
+		},
+		"titleCardSubtext": "* 由 Lemonemy",
+		"stats": "* 错误衫斯 9999 攻击 9999 防御\n* 名为AU毁灭者的畸形怪物。\n* 他能用自己的丝线来控制你的灵魂。"
+	},
+	"color": "#9271FD",
+	"name": "uncreate",
+	"coopAllowed": false,
+	"stepsPerBeat": 4,
+	"displayName": "Uncreate",
+	"beatsPerMeasure": 4,
+	"needsVoices": true,
+	"bpm": 190
+}

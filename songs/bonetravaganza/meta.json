@@ -1,0 +1,35 @@
+{
+	"customValues": {
+		"characterY": null,
+		"character": null,
+		"mainColor": null,
+		"credits": {
+			"CHART": "GOJIMANPLAYS",
+			"BACKGROUND": "WILLART-MEI",
+			"SPRITES": "WILLART-MEI, ALHAMBRITO, CASSANDRA",
+			"SONG": "CHEZZAR, MAR MAR, SKIE"
+		},
+		"customName": "骨趣横生的折磨秀",
+		"titleCardSubtext": "* 由 Chezzar/pause(0.5)/\n* 合作. Mar Mar & Skie",
+		"gameover": {
+			"isMonster": false,
+			"quote": "人类， 演出还要继续！",
+			"song": "bonetravaganza",
+			"sound": "paps"
+		},
+		"characterX": null,
+		"stats": "* 帕派瑞斯 - 非常强大且酷炫 \n* 人人都喜欢他！！\n* 人类 请回到歌曲中来！！"
+	},
+	"color": "#FFFFFF",
+	"opponentModeAllowed": true,
+	"icon": "bonetravaganza-paps",
+	"difficulties": [
+		"hard"
+	],
+	"coopAllowed": true,
+	"stepsPerBeat": 4,
+	"displayName": "Bonetravaganza",
+	"beatsPerMeasure": 4,
+	"needsVoices": true,
+	"bpm": 150
+}

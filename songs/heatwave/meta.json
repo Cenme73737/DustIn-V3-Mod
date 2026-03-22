@@ -1,0 +1,32 @@
+{
+	"opponentModeAllowed": true,
+	"difficulties": [
+		"hard"
+	],
+	"icon": "sans_heat",
+	"coopAllowed": true,
+	"name": "heatwave",
+	"color": "#950B0B",
+	"customValues": {
+		"customName": "热 浪 滚 滚",
+		"credits": {
+			"SPRITES": "MERRITZ, CHEZZAR, CHUF",
+			"BACKGROUND": "HLOARTS",
+			"CHART": "CURIOUS",
+			"SONG": "MADHAYTER, CHEZZAR"
+		},
+		"gameover": {
+			"isMonster": false,
+			"quote": "孩子，我觉得够了。",
+			"song": "heatwave",
+			"sound": "sans"
+		},
+		"titleCardSubtext": "* 由 Madhayter/pause(0.5)/\n* 合作. Chezzar",
+		"stats": "* 衫斯 67 攻击 56 防御\n* 你从未见过他 如此沮丧。\n* 身上的尘埃比他刚才更多。"
+	},
+	"stepsPerBeat": 4,
+	"displayName": "Heatwave",
+	"needsVoices": true,
+	"beatsPerMeasure": 4,
+	"bpm": 130
+}

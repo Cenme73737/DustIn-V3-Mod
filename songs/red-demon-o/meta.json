@@ -1,0 +1,21 @@
+{
+	"color": "#9271FD",
+	"customValues": {
+		"customName": "赤鬼 O",
+		"titleCardSubtext": "* 由 Mar Mar\n* 初始版本由 Shiina Mota",
+		"character": "overthrone",
+		"mainColor": "#FFFFFF",
+		"stats": "* 衫斯 58 攻击 15 防御\n* 这个赤鬼。\n* 把所有人都烧成了灰烬。"
+	},
+	"opponentModeAllowed": false,
+	"icon": "dustfell-bf",
+	"difficulties": [
+		"hard"
+	],
+	"coopAllowed": false,
+	"stepsPerBeat": 4,
+	"displayName": "red-demon-o",
+	"beatsPerMeasure": 4,
+	"needsVoices": true,
+	"bpm": 130
+}

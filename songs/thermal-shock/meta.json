@@ -1,0 +1,33 @@
+{
+	"opponentModeAllowed": false,
+	"difficulties": [
+		"hard"
+	],
+	"icon": "swapcharaicons",
+	"coopAllowed": false,
+	"name": "thermal-shock",
+	"color": "#9271FD",
+	"customValues": {
+		"customName": "骤 热 悲 鸣",
+		"titleCardSubtext": "* 由 Audieun/pause(0.5)/\n* 合作. Chezzar & Mar Mar",
+		"credits": {
+			"CHART": "CORVA",
+			"BACKGROUND": "JFLOID",
+			"SPRITES": "PHALV, CHEZZAR",
+			"SONG": "AUDIEUN, CHEZZAR, MARMAR"
+		},
+		"gameover": {
+			"isMonster": true,
+			"quote": "帕斯，你的任务还尚未完成。",
+			"song": "thermal-shock",
+			"sound": "swapsans"
+		},
+		"mainColor": "#FFADD5",
+		"stats": "* 猹 32 攻击 26 防御\n* 坠落的人类。\n* 你能看到Ta真正的 眼睛。"
+	},
+	"stepsPerBeat": 4,
+	"displayName": "thermal shock",
+	"needsVoices": true,
+	"beatsPerMeasure": 4,
+	"bpm": 140
+}

@@ -1,0 +1,621 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Funkin Packer v0.1.3 https://neeeoo.github.io/funkin-packer/
+-->
+<TextureAtlas imagePath="red.png" width="8113" height="2247">
+	<SubTexture name="down pose0000" x="2747" y="1771" width="504" height="380" frameX="-0" frameY="-2" frameWidth="505" frameHeight="382"/>
+	<SubTexture name="down pose0001" x="2747" y="1771" width="504" height="380" frameX="-0" frameY="-2" frameWidth="505" frameHeight="382"/>
+	<SubTexture name="down pose0002" x="3256" y="1771" width="501" height="380" frameX="-0" frameY="-0" frameWidth="505" frameHeight="382"/>
+	<SubTexture name="down pose0003" x="3256" y="1771" width="501" height="380" frameX="-0" frameY="-0" frameWidth="505" frameHeight="382"/>
+	<SubTexture name="idle0000" x="6898" y="1" width="679" height="341" frameX="-3" frameY="-19" frameWidth="683" frameHeight="360"/>
+	<SubTexture name="idle0001" x="6898" y="1" width="679" height="341" frameX="-3" frameY="-19" frameWidth="683" frameHeight="360"/>
+	<SubTexture name="idle0002" x="6214" y="1" width="679" height="339" frameX="-4" frameY="-14" frameWidth="683" frameHeight="360"/>
+	<SubTexture name="idle0003" x="6214" y="1" width="679" height="339" frameX="-4" frameY="-14" frameWidth="683" frameHeight="360"/>
+	<SubTexture name="idle0004" x="633" y="321" width="679" height="345" frameX="-2" frameY="-3" frameWidth="683" frameHeight="360"/>
+	<SubTexture name="idle0005" x="633" y="321" width="679" height="345" frameX="-2" frameY="-3" frameWidth="683" frameHeight="360"/>
+	<SubTexture name="idle0006" x="2828" y="336" width="674" height="348" frameX="-0" frameY="-0" frameWidth="683" frameHeight="360"/>
+	<SubTexture name="idle0007" x="2828" y="336" width="674" height="348" frameX="-0" frameY="-0" frameWidth="683" frameHeight="360"/>
+	<SubTexture name="idle0008" x="3507" y="341" width="673" height="348" frameX="-0" frameY="-0" frameWidth="683" frameHeight="360"/>
+	<SubTexture name="idle0009" x="3507" y="341" width="673" height="348" frameX="-0" frameY="-0" frameWidth="683" frameHeight="360"/>
+	<SubTexture name="idle0010" x="3507" y="341" width="673" height="348" frameX="-0" frameY="-0" frameWidth="683" frameHeight="360"/>
+	<SubTexture name="idle0011" x="3507" y="341" width="673" height="348" frameX="-0" frameY="-0" frameWidth="683" frameHeight="360"/>
+	<SubTexture name="idle0012" x="3507" y="341" width="673" height="348" frameX="-0" frameY="-0" frameWidth="683" frameHeight="360"/>
+	<SubTexture name="idle0013" x="3507" y="341" width="673" height="348" frameX="-0" frameY="-0" frameWidth="683" frameHeight="360"/>
+	<SubTexture name="left pose0000" x="1" y="1" width="614" height="314" frameX="-0" frameY="-1" frameWidth="618" frameHeight="317"/>
+	<SubTexture name="left pose0001" x="1" y="1" width="614" height="314" frameX="-0" frameY="-1" frameWidth="618" frameHeight="317"/>
+	<SubTexture name="left pose0002" x="1347" y="1" width="610" height="317" frameX="-8" frameY="-0" frameWidth="618" frameHeight="317"/>
+	<SubTexture name="left pose0003" x="1347" y="1" width="610" height="317" frameX="-8" frameY="-0" frameWidth="618" frameHeight="317"/>
+	<SubTexture name="red gun0000" x="620" y="1" width="722" height="315" frameX="-5" frameY="-74" frameWidth="990" frameHeight="429"/>
+	<SubTexture name="red gun0001" x="620" y="1" width="722" height="315" frameX="-5" frameY="-74" frameWidth="990" frameHeight="429"/>
+	<SubTexture name="red gun0002" x="4068" y="1412" width="739" height="357" frameX="-0" frameY="-72" frameWidth="990" frameHeight="429"/>
+	<SubTexture name="red gun0003" x="4068" y="1412" width="739" height="357" frameX="-0" frameY="-72" frameWidth="990" frameHeight="429"/>
+	<SubTexture name="red gun0004" x="4068" y="1412" width="739" height="357" frameX="-0" frameY="-72" frameWidth="990" frameHeight="429"/>
+	<SubTexture name="red gun0005" x="5639" y="1060" width="748" height="355" frameX="-0" frameY="-72" frameWidth="990" frameHeight="429"/>
+	<SubTexture name="red gun0006" x="5639" y="1060" width="748" height="355" frameX="-0" frameY="-72" frameWidth="990" frameHeight="429"/>
+	<SubTexture name="red gun0007" x="1317" y="326" width="750" height="346" frameX="-0" frameY="-72" frameWidth="990" frameHeight="429"/>
+	<SubTexture name="red gun0008" x="1317" y="326" width="750" height="346" frameX="-0" frameY="-72" frameWidth="990" frameHeight="429"/>
+	<SubTexture name="red gun0009" x="2072" y="331" width="751" height="347" frameX="-0" frameY="-72" frameWidth="990" frameHeight="429"/>
+	<SubTexture name="red gun0010" x="2072" y="331" width="751" height="347" frameX="-0" frameY="-72" frameWidth="990" frameHeight="429"/>
+	<SubTexture name="red gun0011" x="6392" y="1062" width="753" height="355" frameX="-0" frameY="-72" frameWidth="990" frameHeight="429"/>
+	<SubTexture name="red gun0012" x="6392" y="1062" width="753" height="355" frameX="-0" frameY="-72" frameWidth="990" frameHeight="429"/>
+	<SubTexture name="red gun0013" x="1989" y="683" width="738" height="353" frameX="-16" frameY="-72" frameWidth="990" frameHeight="429"/>
+	<SubTexture name="red gun0014" x="1989" y="683" width="738" height="353" frameX="-16" frameY="-72" frameWidth="990" frameHeight="429"/>
+	<SubTexture name="red gun0015" x="1989" y="683" width="738" height="353" frameX="-16" frameY="-72" frameWidth="990" frameHeight="429"/>
+	<SubTexture name="red gun0016" x="1" y="668" width="605" height="353" frameX="-149" frameY="-72" frameWidth="990" frameHeight="429"/>
+	<SubTexture name="red gun0017" x="1" y="668" width="605" height="353" frameX="-149" frameY="-72" frameWidth="990" frameHeight="429"/>
+	<SubTexture name="red gun0018" x="2732" y="689" width="513" height="353" frameX="-241" frameY="-72" frameWidth="990" frameHeight="429"/>
+	<SubTexture name="red gun0019" x="3250" y="694" width="513" height="353" frameX="-241" frameY="-72" frameWidth="990" frameHeight="429"/>
+	<SubTexture name="red gun0020" x="3250" y="694" width="513" height="353" frameX="-241" frameY="-72" frameWidth="990" frameHeight="429"/>
+	<SubTexture name="red gun0021" x="3250" y="694" width="513" height="353" frameX="-241" frameY="-72" frameWidth="990" frameHeight="429"/>
+	<SubTexture name="red gun0022" x="3768" y="694" width="513" height="353" frameX="-241" frameY="-72" frameWidth="990" frameHeight="429"/>
+	<SubTexture name="red gun0023" x="3768" y="694" width="513" height="353" frameX="-241" frameY="-72" frameWidth="990" frameHeight="429"/>
+	<SubTexture name="red gun0024" x="4286" y="694" width="513" height="353" frameX="-241" frameY="-72" frameWidth="990" frameHeight="429"/>
+	<SubTexture name="red gun0025" x="4286" y="694" width="513" height="353" frameX="-241" frameY="-72" frameWidth="990" frameHeight="429"/>
+	<SubTexture name="red gun0026" x="1621" y="1399" width="518" height="358" frameX="-236" frameY="-67" frameWidth="990" frameHeight="429"/>
+	<SubTexture name="red gun0027" x="1621" y="1399" width="518" height="358" frameX="-236" frameY="-67" frameWidth="990" frameHeight="429"/>
+	<SubTexture name="red gun0028" x="2144" y="1405" width="545" height="358" frameX="-209" frameY="-67" frameWidth="990" frameHeight="429"/>
+	<SubTexture name="red gun0029" x="2144" y="1405" width="545" height="358" frameX="-209" frameY="-67" frameWidth="990" frameHeight="429"/>
+	<SubTexture name="red gun0030" x="2144" y="1405" width="545" height="358" frameX="-209" frameY="-67" frameWidth="990" frameHeight="429"/>
+	<SubTexture name="red gun0031" x="531" y="1386" width="540" height="356" frameX="-214" frameY="-69" frameWidth="990" frameHeight="429"/>
+	<SubTexture name="red gun0032" x="531" y="1386" width="540" height="356" frameX="-214" frameY="-69" frameWidth="990" frameHeight="429"/>
+	<SubTexture name="red gun0033" x="1076" y="1392" width="540" height="356" frameX="-214" frameY="-69" frameWidth="990" frameHeight="429"/>
+	<SubTexture name="red gun0034" x="3762" y="1774" width="709" height="425" frameX="-214" frameY="-0" frameWidth="990" frameHeight="429"/>
+	<SubTexture name="red gun0035" x="3762" y="1774" width="709" height="425" frameX="-214" frameY="-0" frameWidth="990" frameHeight="429"/>
+	<SubTexture name="red gun0036" x="4476" y="1777" width="776" height="425" frameX="-214" frameY="-0" frameWidth="990" frameHeight="429"/>
+	<SubTexture name="red gun0037" x="4476" y="1777" width="776" height="425" frameX="-214" frameY="-0" frameWidth="990" frameHeight="429"/>
+	<SubTexture name="red gun0038" x="5257" y="1783" width="540" height="425" frameX="-214" frameY="-0" frameWidth="990" frameHeight="429"/>
+	<SubTexture name="red gun0039" x="5257" y="1783" width="540" height="425" frameX="-214" frameY="-0" frameWidth="990" frameHeight="429"/>
+	<SubTexture name="red gun0040" x="5257" y="1783" width="540" height="425" frameX="-214" frameY="-0" frameWidth="990" frameHeight="429"/>
+	<SubTexture name="red gun0041" x="5257" y="1783" width="540" height="425" frameX="-214" frameY="-0" frameWidth="990" frameHeight="429"/>
+	<SubTexture name="red gun0042" x="5257" y="1783" width="540" height="425" frameX="-214" frameY="-0" frameWidth="990" frameHeight="429"/>
+	<SubTexture name="red gun0043" x="5257" y="1783" width="540" height="425" frameX="-214" frameY="-0" frameWidth="990" frameHeight="429"/>
+	<SubTexture name="red gun0044" x="5257" y="1783" width="540" height="425" frameX="-214" frameY="-0" frameWidth="990" frameHeight="429"/>
+	<SubTexture name="red gun0045" x="5257" y="1783" width="540" height="425" frameX="-214" frameY="-0" frameWidth="990" frameHeight="429"/>
+	<SubTexture name="red gun0046" x="5257" y="1783" width="540" height="425" frameX="-214" frameY="-0" frameWidth="990" frameHeight="429"/>
+	<SubTexture name="red gun0047" x="5257" y="1783" width="540" height="425" frameX="-214" frameY="-0" frameWidth="990" frameHeight="429"/>
+	<SubTexture name="red gun0048" x="5257" y="1783" width="540" height="425" frameX="-214" frameY="-0" frameWidth="990" frameHeight="429"/>
+	<SubTexture name="red gun0049" x="5257" y="1783" width="540" height="425" frameX="-214" frameY="-0" frameWidth="990" frameHeight="429"/>
+	<SubTexture name="red gun0050" x="5257" y="1783" width="540" height="425" frameX="-214" frameY="-0" frameWidth="990" frameHeight="429"/>
+	<SubTexture name="red gun0051" x="5257" y="1783" width="540" height="425" frameX="-214" frameY="-0" frameWidth="990" frameHeight="429"/>
+	<SubTexture name="red gun0052" x="5257" y="1783" width="540" height="425" frameX="-214" frameY="-0" frameWidth="990" frameHeight="429"/>
+	<SubTexture name="red gun0053" x="5257" y="1783" width="540" height="425" frameX="-214" frameY="-0" frameWidth="990" frameHeight="429"/>
+	<SubTexture name="red gun0054" x="5257" y="1783" width="540" height="425" frameX="-214" frameY="-0" frameWidth="990" frameHeight="429"/>
+	<SubTexture name="red gun0055" x="5257" y="1783" width="540" height="425" frameX="-214" frameY="-0" frameWidth="990" frameHeight="429"/>
+	<SubTexture name="red gun0056" x="5257" y="1783" width="540" height="425" frameX="-214" frameY="-0" frameWidth="990" frameHeight="429"/>
+	<SubTexture name="red gun0057" x="5257" y="1783" width="540" height="425" frameX="-214" frameY="-0" frameWidth="990" frameHeight="429"/>
+	<SubTexture name="red gun0058" x="5257" y="1783" width="540" height="425" frameX="-214" frameY="-0" frameWidth="990" frameHeight="429"/>
+	<SubTexture name="red gun0059" x="5257" y="1783" width="540" height="425" frameX="-214" frameY="-0" frameWidth="990" frameHeight="429"/>
+	<SubTexture name="red gun0060" x="5257" y="1783" width="540" height="425" frameX="-214" frameY="-0" frameWidth="990" frameHeight="429"/>
+	<SubTexture name="red gun0061" x="5257" y="1783" width="540" height="425" frameX="-214" frameY="-0" frameWidth="990" frameHeight="429"/>
+	<SubTexture name="red gun0062" x="5257" y="1783" width="540" height="425" frameX="-214" frameY="-0" frameWidth="990" frameHeight="429"/>
+	<SubTexture name="red gun0063" x="5257" y="1783" width="540" height="425" frameX="-214" frameY="-0" frameWidth="990" frameHeight="429"/>
+	<SubTexture name="red gun0064" x="5257" y="1783" width="540" height="425" frameX="-214" frameY="-0" frameWidth="990" frameHeight="429"/>
+	<SubTexture name="red gun0065" x="5257" y="1783" width="540" height="425" frameX="-214" frameY="-0" frameWidth="990" frameHeight="429"/>
+	<SubTexture name="red gun0066" x="5257" y="1783" width="540" height="425" frameX="-214" frameY="-0" frameWidth="990" frameHeight="429"/>
+	<SubTexture name="red gun0067" x="5257" y="1783" width="540" height="425" frameX="-214" frameY="-0" frameWidth="990" frameHeight="429"/>
+	<SubTexture name="red gun0068" x="5257" y="1783" width="540" height="425" frameX="-214" frameY="-0" frameWidth="990" frameHeight="429"/>
+	<SubTexture name="red gun0069" x="5257" y="1783" width="540" height="425" frameX="-214" frameY="-0" frameWidth="990" frameHeight="429"/>
+	<SubTexture name="red gun0070" x="5257" y="1783" width="540" height="425" frameX="-214" frameY="-0" frameWidth="990" frameHeight="429"/>
+	<SubTexture name="red gun0071" x="5257" y="1783" width="540" height="425" frameX="-214" frameY="-0" frameWidth="990" frameHeight="429"/>
+	<SubTexture name="red gun0072" x="5257" y="1783" width="540" height="425" frameX="-214" frameY="-0" frameWidth="990" frameHeight="429"/>
+	<SubTexture name="red gun0073" x="5257" y="1783" width="540" height="425" frameX="-214" frameY="-0" frameWidth="990" frameHeight="429"/>
+	<SubTexture name="red gun0074" x="5257" y="1783" width="540" height="425" frameX="-214" frameY="-0" frameWidth="990" frameHeight="429"/>
+	<SubTexture name="red gun0075" x="5257" y="1783" width="540" height="425" frameX="-214" frameY="-0" frameWidth="990" frameHeight="429"/>
+	<SubTexture name="red gun0076" x="5257" y="1783" width="540" height="425" frameX="-214" frameY="-0" frameWidth="990" frameHeight="429"/>
+	<SubTexture name="red gun0077" x="5257" y="1783" width="540" height="425" frameX="-214" frameY="-0" frameWidth="990" frameHeight="429"/>
+	<SubTexture name="red gun0078" x="5257" y="1783" width="540" height="425" frameX="-214" frameY="-0" frameWidth="990" frameHeight="429"/>
+	<SubTexture name="red gun0079" x="5257" y="1783" width="540" height="425" frameX="-214" frameY="-0" frameWidth="990" frameHeight="429"/>
+	<SubTexture name="red gun0080" x="5257" y="1783" width="540" height="425" frameX="-214" frameY="-0" frameWidth="990" frameHeight="429"/>
+	<SubTexture name="red gun0081" x="5257" y="1783" width="540" height="425" frameX="-214" frameY="-0" frameWidth="990" frameHeight="429"/>
+	<SubTexture name="red gun0082" x="5257" y="1783" width="540" height="425" frameX="-214" frameY="-0" frameWidth="990" frameHeight="429"/>
+	<SubTexture name="red gun0083" x="5257" y="1783" width="540" height="425" frameX="-214" frameY="-0" frameWidth="990" frameHeight="429"/>
+	<SubTexture name="red gun0084" x="5257" y="1783" width="540" height="425" frameX="-214" frameY="-0" frameWidth="990" frameHeight="429"/>
+	<SubTexture name="red gun0085" x="5257" y="1783" width="540" height="425" frameX="-214" frameY="-0" frameWidth="990" frameHeight="429"/>
+	<SubTexture name="red gun0086" x="5257" y="1783" width="540" height="425" frameX="-214" frameY="-0" frameWidth="990" frameHeight="429"/>
+	<SubTexture name="red gun0087" x="5257" y="1783" width="540" height="425" frameX="-214" frameY="-0" frameWidth="990" frameHeight="429"/>
+	<SubTexture name="red gun0088" x="5257" y="1783" width="540" height="425" frameX="-214" frameY="-0" frameWidth="990" frameHeight="429"/>
+	<SubTexture name="red gun0089" x="5257" y="1783" width="540" height="425" frameX="-214" frameY="-0" frameWidth="990" frameHeight="429"/>
+	<SubTexture name="red gun0090" x="5257" y="1783" width="540" height="425" frameX="-214" frameY="-0" frameWidth="990" frameHeight="429"/>
+	<SubTexture name="red gun0091" x="5257" y="1783" width="540" height="425" frameX="-214" frameY="-0" frameWidth="990" frameHeight="429"/>
+	<SubTexture name="red huh0000" x="4185" y="341" width="673" height="348" frameX="-8" frameY="-5" frameWidth="681" frameHeight="359"/>
+	<SubTexture name="red huh0001" x="4185" y="341" width="673" height="348" frameX="-8" frameY="-5" frameWidth="681" frameHeight="359"/>
+	<SubTexture name="red huh0002" x="4863" y="341" width="647" height="349" frameX="-6" frameY="-10" frameWidth="681" frameHeight="359"/>
+	<SubTexture name="red huh0003" x="4863" y="341" width="647" height="349" frameX="-6" frameY="-10" frameWidth="681" frameHeight="359"/>
+	<SubTexture name="red huh0004" x="1" y="1384" width="525" height="356" frameX="-0" frameY="-0" frameWidth="681" frameHeight="359"/>
+	<SubTexture name="red huh0005" x="1" y="1384" width="525" height="356" frameX="-0" frameY="-0" frameWidth="681" frameHeight="359"/>
+	<SubTexture name="red huh0006" x="4804" y="695" width="529" height="353" frameX="-5" frameY="-3" frameWidth="681" frameHeight="359"/>
+	<SubTexture name="red huh0007" x="4804" y="695" width="529" height="353" frameX="-5" frameY="-3" frameWidth="681" frameHeight="359"/>
+	<SubTexture name="red huh0008" x="4804" y="695" width="529" height="353" frameX="-5" frameY="-3" frameWidth="681" frameHeight="359"/>
+	<SubTexture name="red huh0009" x="4804" y="695" width="529" height="353" frameX="-5" frameY="-3" frameWidth="681" frameHeight="359"/>
+	<SubTexture name="red huh0010" x="4804" y="695" width="529" height="353" frameX="-5" frameY="-3" frameWidth="681" frameHeight="359"/>
+	<SubTexture name="red huh0011" x="4804" y="695" width="529" height="353" frameX="-5" frameY="-3" frameWidth="681" frameHeight="359"/>
+	<SubTexture name="red huh0012" x="4804" y="695" width="529" height="353" frameX="-5" frameY="-3" frameWidth="681" frameHeight="359"/>
+	<SubTexture name="red huh0013" x="4804" y="695" width="529" height="353" frameX="-5" frameY="-3" frameWidth="681" frameHeight="359"/>
+	<SubTexture name="red huh0014" x="4804" y="695" width="529" height="353" frameX="-5" frameY="-3" frameWidth="681" frameHeight="359"/>
+	<SubTexture name="red huh0015" x="4804" y="695" width="529" height="353" frameX="-5" frameY="-3" frameWidth="681" frameHeight="359"/>
+	<SubTexture name="red huh0016" x="4804" y="695" width="529" height="353" frameX="-5" frameY="-3" frameWidth="681" frameHeight="359"/>
+	<SubTexture name="red huh0017" x="4804" y="695" width="529" height="353" frameX="-5" frameY="-3" frameWidth="681" frameHeight="359"/>
+	<SubTexture name="red huh0018" x="4804" y="695" width="529" height="353" frameX="-5" frameY="-3" frameWidth="681" frameHeight="359"/>
+	<SubTexture name="red huh0019" x="4804" y="695" width="529" height="353" frameX="-5" frameY="-3" frameWidth="681" frameHeight="359"/>
+	<SubTexture name="red huh0020" x="4804" y="695" width="529" height="353" frameX="-5" frameY="-3" frameWidth="681" frameHeight="359"/>
+	<SubTexture name="red huh0021" x="4804" y="695" width="529" height="353" frameX="-5" frameY="-3" frameWidth="681" frameHeight="359"/>
+	<SubTexture name="red huh0022" x="4804" y="695" width="529" height="353" frameX="-5" frameY="-3" frameWidth="681" frameHeight="359"/>
+	<SubTexture name="red huh0023" x="4804" y="695" width="529" height="353" frameX="-5" frameY="-3" frameWidth="681" frameHeight="359"/>
+	<SubTexture name="red huh0024" x="4804" y="695" width="529" height="353" frameX="-5" frameY="-3" frameWidth="681" frameHeight="359"/>
+	<SubTexture name="red huh0025" x="4804" y="695" width="529" height="353" frameX="-5" frameY="-3" frameWidth="681" frameHeight="359"/>
+	<SubTexture name="red huh0026" x="4804" y="695" width="529" height="353" frameX="-5" frameY="-3" frameWidth="681" frameHeight="359"/>
+	<SubTexture name="red huh0027" x="4804" y="695" width="529" height="353" frameX="-5" frameY="-3" frameWidth="681" frameHeight="359"/>
+	<SubTexture name="red huh0028" x="4804" y="695" width="529" height="353" frameX="-5" frameY="-3" frameWidth="681" frameHeight="359"/>
+	<SubTexture name="red huh0029" x="5338" y="698" width="529" height="353" frameX="-5" frameY="-3" frameWidth="681" frameHeight="359"/>
+	<SubTexture name="red huh0030" x="5338" y="698" width="529" height="353" frameX="-5" frameY="-3" frameWidth="681" frameHeight="359"/>
+	<SubTexture name="red huh0031" x="5872" y="702" width="529" height="353" frameX="-5" frameY="-3" frameWidth="681" frameHeight="359"/>
+	<SubTexture name="red huh0032" x="5872" y="702" width="529" height="353" frameX="-5" frameY="-3" frameWidth="681" frameHeight="359"/>
+	<SubTexture name="red huh0033" x="6406" y="704" width="529" height="353" frameX="-5" frameY="-3" frameWidth="681" frameHeight="359"/>
+	<SubTexture name="red huh0034" x="6940" y="704" width="529" height="353" frameX="-5" frameY="-3" frameWidth="681" frameHeight="359"/>
+	<SubTexture name="red huh0035" x="6940" y="704" width="529" height="353" frameX="-5" frameY="-3" frameWidth="681" frameHeight="359"/>
+	<SubTexture name="red huh0036" x="7474" y="704" width="529" height="353" frameX="-5" frameY="-3" frameWidth="681" frameHeight="359"/>
+	<SubTexture name="red huh0037" x="7474" y="704" width="529" height="353" frameX="-5" frameY="-3" frameWidth="681" frameHeight="359"/>
+	<SubTexture name="red huh0038" x="5338" y="698" width="529" height="353" frameX="-5" frameY="-3" frameWidth="681" frameHeight="359"/>
+	<SubTexture name="red huh0039" x="5338" y="698" width="529" height="353" frameX="-5" frameY="-3" frameWidth="681" frameHeight="359"/>
+	<SubTexture name="red huh0040" x="5338" y="698" width="529" height="353" frameX="-5" frameY="-3" frameWidth="681" frameHeight="359"/>
+	<SubTexture name="red huh0041" x="5338" y="698" width="529" height="353" frameX="-5" frameY="-3" frameWidth="681" frameHeight="359"/>
+	<SubTexture name="red huh0042" x="5338" y="698" width="529" height="353" frameX="-5" frameY="-3" frameWidth="681" frameHeight="359"/>
+	<SubTexture name="red huh0043" x="5338" y="698" width="529" height="353" frameX="-5" frameY="-3" frameWidth="681" frameHeight="359"/>
+	<SubTexture name="red huh0044" x="5338" y="698" width="529" height="353" frameX="-5" frameY="-3" frameWidth="681" frameHeight="359"/>
+	<SubTexture name="red huh0045" x="5338" y="698" width="529" height="353" frameX="-5" frameY="-3" frameWidth="681" frameHeight="359"/>
+	<SubTexture name="red huh0046" x="5338" y="698" width="529" height="353" frameX="-5" frameY="-3" frameWidth="681" frameHeight="359"/>
+	<SubTexture name="red huh0047" x="5338" y="698" width="529" height="353" frameX="-5" frameY="-3" frameWidth="681" frameHeight="359"/>
+	<SubTexture name="red huh0048" x="5338" y="698" width="529" height="353" frameX="-5" frameY="-3" frameWidth="681" frameHeight="359"/>
+	<SubTexture name="red huh0049" x="5338" y="698" width="529" height="353" frameX="-5" frameY="-3" frameWidth="681" frameHeight="359"/>
+	<SubTexture name="red huh0050" x="5338" y="698" width="529" height="353" frameX="-5" frameY="-3" frameWidth="681" frameHeight="359"/>
+	<SubTexture name="red huh0051" x="5338" y="698" width="529" height="353" frameX="-5" frameY="-3" frameWidth="681" frameHeight="359"/>
+	<SubTexture name="red huh0052" x="5338" y="698" width="529" height="353" frameX="-5" frameY="-3" frameWidth="681" frameHeight="359"/>
+	<SubTexture name="red huh0053" x="5338" y="698" width="529" height="353" frameX="-5" frameY="-3" frameWidth="681" frameHeight="359"/>
+	<SubTexture name="red huh0054" x="5338" y="698" width="529" height="353" frameX="-5" frameY="-3" frameWidth="681" frameHeight="359"/>
+	<SubTexture name="red huh0055" x="5338" y="698" width="529" height="353" frameX="-5" frameY="-3" frameWidth="681" frameHeight="359"/>
+	<SubTexture name="red huh0056" x="5338" y="698" width="529" height="353" frameX="-5" frameY="-3" frameWidth="681" frameHeight="359"/>
+	<SubTexture name="red huh0057" x="5338" y="698" width="529" height="353" frameX="-5" frameY="-3" frameWidth="681" frameHeight="359"/>
+	<SubTexture name="red huh0058" x="5338" y="698" width="529" height="353" frameX="-5" frameY="-3" frameWidth="681" frameHeight="359"/>
+	<SubTexture name="red huh0059" x="5338" y="698" width="529" height="353" frameX="-5" frameY="-3" frameWidth="681" frameHeight="359"/>
+	<SubTexture name="red huh0060" x="5338" y="698" width="529" height="353" frameX="-5" frameY="-3" frameWidth="681" frameHeight="359"/>
+	<SubTexture name="red huh0061" x="5338" y="698" width="529" height="353" frameX="-5" frameY="-3" frameWidth="681" frameHeight="359"/>
+	<SubTexture name="red huh0062" x="5338" y="698" width="529" height="353" frameX="-5" frameY="-3" frameWidth="681" frameHeight="359"/>
+	<SubTexture name="red huh0063" x="5338" y="698" width="529" height="353" frameX="-5" frameY="-3" frameWidth="681" frameHeight="359"/>
+	<SubTexture name="red huh0064" x="5338" y="698" width="529" height="353" frameX="-5" frameY="-3" frameWidth="681" frameHeight="359"/>
+	<SubTexture name="red huh0065" x="5338" y="698" width="529" height="353" frameX="-5" frameY="-3" frameWidth="681" frameHeight="359"/>
+	<SubTexture name="red huh0066" x="5338" y="698" width="529" height="353" frameX="-5" frameY="-3" frameWidth="681" frameHeight="359"/>
+	<SubTexture name="red huh0067" x="5338" y="698" width="529" height="353" frameX="-5" frameY="-3" frameWidth="681" frameHeight="359"/>
+	<SubTexture name="red huh0068" x="5338" y="698" width="529" height="353" frameX="-5" frameY="-3" frameWidth="681" frameHeight="359"/>
+	<SubTexture name="red huh0069" x="5338" y="698" width="529" height="353" frameX="-5" frameY="-3" frameWidth="681" frameHeight="359"/>
+	<SubTexture name="red huh0070" x="5338" y="698" width="529" height="353" frameX="-5" frameY="-3" frameWidth="681" frameHeight="359"/>
+	<SubTexture name="red huh0071" x="5338" y="698" width="529" height="353" frameX="-5" frameY="-3" frameWidth="681" frameHeight="359"/>
+	<SubTexture name="red huh0072" x="5338" y="698" width="529" height="353" frameX="-5" frameY="-3" frameWidth="681" frameHeight="359"/>
+	<SubTexture name="red huh0073" x="5338" y="698" width="529" height="353" frameX="-5" frameY="-3" frameWidth="681" frameHeight="359"/>
+	<SubTexture name="red huh0074" x="5338" y="698" width="529" height="353" frameX="-5" frameY="-3" frameWidth="681" frameHeight="359"/>
+	<SubTexture name="red huh0075" x="5338" y="698" width="529" height="353" frameX="-5" frameY="-3" frameWidth="681" frameHeight="359"/>
+	<SubTexture name="red huh0076" x="5338" y="698" width="529" height="353" frameX="-5" frameY="-3" frameWidth="681" frameHeight="359"/>
+	<SubTexture name="red huh0077" x="5338" y="698" width="529" height="353" frameX="-5" frameY="-3" frameWidth="681" frameHeight="359"/>
+	<SubTexture name="red huh0078" x="5338" y="698" width="529" height="353" frameX="-5" frameY="-3" frameWidth="681" frameHeight="359"/>
+	<SubTexture name="red huh0079" x="5338" y="698" width="529" height="353" frameX="-5" frameY="-3" frameWidth="681" frameHeight="359"/>
+	<SubTexture name="red huh0080" x="5338" y="698" width="529" height="353" frameX="-5" frameY="-3" frameWidth="681" frameHeight="359"/>
+	<SubTexture name="red huh0081" x="5338" y="698" width="529" height="353" frameX="-5" frameY="-3" frameWidth="681" frameHeight="359"/>
+	<SubTexture name="red huh0082" x="5338" y="698" width="529" height="353" frameX="-5" frameY="-3" frameWidth="681" frameHeight="359"/>
+	<SubTexture name="red huh0083" x="5338" y="698" width="529" height="353" frameX="-5" frameY="-3" frameWidth="681" frameHeight="359"/>
+	<SubTexture name="red huh0084" x="5338" y="698" width="529" height="353" frameX="-5" frameY="-3" frameWidth="681" frameHeight="359"/>
+	<SubTexture name="red huh0085" x="5338" y="698" width="529" height="353" frameX="-5" frameY="-3" frameWidth="681" frameHeight="359"/>
+	<SubTexture name="red huh0086" x="5338" y="698" width="529" height="353" frameX="-5" frameY="-3" frameWidth="681" frameHeight="359"/>
+	<SubTexture name="red huh0087" x="5338" y="698" width="529" height="353" frameX="-5" frameY="-3" frameWidth="681" frameHeight="359"/>
+	<SubTexture name="red huh0088" x="5338" y="698" width="529" height="353" frameX="-5" frameY="-3" frameWidth="681" frameHeight="359"/>
+	<SubTexture name="red huh0089" x="5338" y="698" width="529" height="353" frameX="-5" frameY="-3" frameWidth="681" frameHeight="359"/>
+	<SubTexture name="red huh0090" x="5338" y="698" width="529" height="353" frameX="-5" frameY="-3" frameWidth="681" frameHeight="359"/>
+	<SubTexture name="red huh0091" x="5338" y="698" width="529" height="353" frameX="-5" frameY="-3" frameWidth="681" frameHeight="359"/>
+	<SubTexture name="red huh0092" x="5338" y="698" width="529" height="353" frameX="-5" frameY="-3" frameWidth="681" frameHeight="359"/>
+	<SubTexture name="red huh0093" x="5338" y="698" width="529" height="353" frameX="-5" frameY="-3" frameWidth="681" frameHeight="359"/>
+	<SubTexture name="red huh0094" x="5338" y="698" width="529" height="353" frameX="-5" frameY="-3" frameWidth="681" frameHeight="359"/>
+	<SubTexture name="red huh0095" x="5338" y="698" width="529" height="353" frameX="-5" frameY="-3" frameWidth="681" frameHeight="359"/>
+	<SubTexture name="red huh0096" x="5338" y="698" width="529" height="353" frameX="-5" frameY="-3" frameWidth="681" frameHeight="359"/>
+	<SubTexture name="red huh0097" x="5338" y="698" width="529" height="353" frameX="-5" frameY="-3" frameWidth="681" frameHeight="359"/>
+	<SubTexture name="red huh0098" x="5338" y="698" width="529" height="353" frameX="-5" frameY="-3" frameWidth="681" frameHeight="359"/>
+	<SubTexture name="red huh0099" x="5338" y="698" width="529" height="353" frameX="-5" frameY="-3" frameWidth="681" frameHeight="359"/>
+	<SubTexture name="red huh0100" x="5338" y="698" width="529" height="353" frameX="-5" frameY="-3" frameWidth="681" frameHeight="359"/>
+	<SubTexture name="red huh0101" x="5338" y="698" width="529" height="353" frameX="-5" frameY="-3" frameWidth="681" frameHeight="359"/>
+	<SubTexture name="red huh0102" x="5338" y="698" width="529" height="353" frameX="-5" frameY="-3" frameWidth="681" frameHeight="359"/>
+	<SubTexture name="red huh0103" x="5338" y="698" width="529" height="353" frameX="-5" frameY="-3" frameWidth="681" frameHeight="359"/>
+	<SubTexture name="red huh0104" x="5338" y="698" width="529" height="353" frameX="-5" frameY="-3" frameWidth="681" frameHeight="359"/>
+	<SubTexture name="red huh0105" x="5338" y="698" width="529" height="353" frameX="-5" frameY="-3" frameWidth="681" frameHeight="359"/>
+	<SubTexture name="red huh0106" x="5338" y="698" width="529" height="353" frameX="-5" frameY="-3" frameWidth="681" frameHeight="359"/>
+	<SubTexture name="red huh0107" x="5338" y="698" width="529" height="353" frameX="-5" frameY="-3" frameWidth="681" frameHeight="359"/>
+	<SubTexture name="red huh0108" x="1" y="1026" width="529" height="353" frameX="-5" frameY="-3" frameWidth="681" frameHeight="359"/>
+	<SubTexture name="red nuh uh0000" x="7582" y="1" width="502" height="341" frameX="-162" frameY="-8" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red nuh uh0001" x="7582" y="1" width="502" height="341" frameX="-162" frameY="-8" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red nuh uh0002" x="3110" y="1" width="523" height="330" frameX="-122" frameY="-5" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red nuh uh0003" x="3110" y="1" width="523" height="330" frameX="-122" frameY="-5" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red nuh uh0004" x="5500" y="1420" width="679" height="358" frameX="-9" frameY="-1" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red nuh uh0005" x="5500" y="1420" width="679" height="358" frameX="-9" frameY="-1" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red nuh uh0006" x="6184" y="1422" width="682" height="358" frameX="-8" frameY="-1" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red nuh uh0007" x="6184" y="1422" width="682" height="358" frameX="-8" frameY="-1" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red nuh uh0008" x="2694" y="1410" width="682" height="356" frameX="-6" frameY="-1" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red nuh uh0009" x="2694" y="1410" width="682" height="356" frameX="-6" frameY="-1" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red nuh uh0010" x="5515" y="341" width="682" height="352" frameX="-2" frameY="-0" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red nuh uh0011" x="4263" y="1053" width="683" height="354" frameX="-0" frameY="-1" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red nuh uh0012" x="4263" y="1053" width="683" height="354" frameX="-0" frameY="-1" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red nuh uh0013" x="7150" y="1062" width="683" height="355" frameX="-0" frameY="-0" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red nuh uh0014" x="3381" y="1410" width="682" height="356" frameX="-4" frameY="-2" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red nuh uh0015" x="3381" y="1410" width="682" height="356" frameX="-4" frameY="-2" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red nuh uh0016" x="685" y="1753" width="682" height="359" frameX="-9" frameY="-2" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red nuh uh0017" x="685" y="1753" width="682" height="359" frameX="-9" frameY="-2" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red nuh uh0018" x="1372" y="1762" width="683" height="360" frameX="-5" frameY="-0" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red nuh uh0019" x="1372" y="1762" width="683" height="360" frameX="-5" frameY="-0" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red nuh uh0020" x="1372" y="1762" width="683" height="360" frameX="-5" frameY="-0" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red nuh uh0021" x="1372" y="1762" width="683" height="360" frameX="-5" frameY="-0" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red nuh uh0022" x="1372" y="1762" width="683" height="360" frameX="-5" frameY="-0" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red nuh uh0023" x="4812" y="1415" width="683" height="357" frameX="-5" frameY="-3" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red nuh uh0024" x="4812" y="1415" width="683" height="357" frameX="-5" frameY="-3" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red nuh uh0025" x="2060" y="1771" width="682" height="360" frameX="-6" frameY="-0" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red nuh uh0026" x="2060" y="1771" width="682" height="360" frameX="-6" frameY="-0" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red nuh uh0027" x="6871" y="1422" width="679" height="358" frameX="-9" frameY="-1" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red nuh uh0028" x="6871" y="1422" width="679" height="358" frameX="-9" frameY="-1" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red nuh uh0029" x="6871" y="1422" width="679" height="358" frameX="-9" frameY="-1" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red nuh uh0030" x="6871" y="1422" width="679" height="358" frameX="-9" frameY="-1" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red nuh uh0031" x="6871" y="1422" width="679" height="358" frameX="-9" frameY="-1" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red nuh uh0032" x="6871" y="1422" width="679" height="358" frameX="-9" frameY="-1" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red nuh uh0033" x="6871" y="1422" width="679" height="358" frameX="-9" frameY="-1" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red nuh uh0034" x="6871" y="1422" width="679" height="358" frameX="-9" frameY="-1" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red nuh uh0035" x="6871" y="1422" width="679" height="358" frameX="-9" frameY="-1" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red nuh uh0036" x="6871" y="1422" width="679" height="358" frameX="-9" frameY="-1" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red nuh uh0037" x="6871" y="1422" width="679" height="358" frameX="-9" frameY="-1" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red nuh uh0038" x="6871" y="1422" width="679" height="358" frameX="-9" frameY="-1" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red nuh uh0039" x="6871" y="1422" width="679" height="358" frameX="-9" frameY="-1" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red nuh uh0040" x="6871" y="1422" width="679" height="358" frameX="-9" frameY="-1" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red nuh uh0041" x="6871" y="1422" width="679" height="358" frameX="-9" frameY="-1" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red nuh uh0042" x="6871" y="1422" width="679" height="358" frameX="-9" frameY="-1" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red nuh uh0043" x="6871" y="1422" width="679" height="358" frameX="-9" frameY="-1" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red nuh uh0044" x="6871" y="1422" width="679" height="358" frameX="-9" frameY="-1" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red nuh uh0045" x="6871" y="1422" width="679" height="358" frameX="-9" frameY="-1" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red nuh uh0046" x="6871" y="1422" width="679" height="358" frameX="-9" frameY="-1" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red nuh uh0047" x="6871" y="1422" width="679" height="358" frameX="-9" frameY="-1" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red nuh uh0048" x="6871" y="1422" width="679" height="358" frameX="-9" frameY="-1" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red nuh uh0049" x="6871" y="1422" width="679" height="358" frameX="-9" frameY="-1" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red nuh uh0050" x="6871" y="1422" width="679" height="358" frameX="-9" frameY="-1" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red nuh uh0051" x="6871" y="1422" width="679" height="358" frameX="-9" frameY="-1" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red nuh uh0052" x="6871" y="1422" width="679" height="358" frameX="-9" frameY="-1" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red nuh uh0053" x="6871" y="1422" width="679" height="358" frameX="-9" frameY="-1" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red nuh uh0054" x="6871" y="1422" width="679" height="358" frameX="-9" frameY="-1" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red nuh uh0055" x="6871" y="1422" width="679" height="358" frameX="-9" frameY="-1" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red nuh uh0056" x="6871" y="1422" width="679" height="358" frameX="-9" frameY="-1" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red nuh uh0057" x="6871" y="1422" width="679" height="358" frameX="-9" frameY="-1" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red nuh uh0058" x="6871" y="1422" width="679" height="358" frameX="-9" frameY="-1" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red nuh uh0059" x="6871" y="1422" width="679" height="358" frameX="-9" frameY="-1" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red nuh uh0060" x="6871" y="1422" width="679" height="358" frameX="-9" frameY="-1" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red nuh uh0061" x="6871" y="1422" width="679" height="358" frameX="-9" frameY="-1" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red nuh uh0062" x="6871" y="1422" width="679" height="358" frameX="-9" frameY="-1" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red nuh uh0063" x="6871" y="1422" width="679" height="358" frameX="-9" frameY="-1" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red nuh uh0064" x="6871" y="1422" width="679" height="358" frameX="-9" frameY="-1" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red nuh uh0065" x="6871" y="1422" width="679" height="358" frameX="-9" frameY="-1" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red nuh uh0066" x="6871" y="1422" width="679" height="358" frameX="-9" frameY="-1" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red nuh uh0067" x="6871" y="1422" width="679" height="358" frameX="-9" frameY="-1" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red nuh uh0068" x="6871" y="1422" width="679" height="358" frameX="-9" frameY="-1" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red nuh uh0069" x="6871" y="1422" width="679" height="358" frameX="-9" frameY="-1" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red nuh uh0070" x="6871" y="1422" width="679" height="358" frameX="-9" frameY="-1" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red nuh uh0071" x="6871" y="1422" width="679" height="358" frameX="-9" frameY="-1" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red nuh uh0072" x="6871" y="1422" width="679" height="358" frameX="-9" frameY="-1" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red nuh uh0073" x="6871" y="1422" width="679" height="358" frameX="-9" frameY="-1" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red nuh uh0074" x="6871" y="1422" width="679" height="358" frameX="-9" frameY="-1" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red nuh uh0075" x="6871" y="1422" width="679" height="358" frameX="-9" frameY="-1" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red nuh uh0076" x="6871" y="1422" width="679" height="358" frameX="-9" frameY="-1" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red nuh uh0077" x="6871" y="1422" width="679" height="358" frameX="-9" frameY="-1" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red nuh uh0078" x="6871" y="1422" width="679" height="358" frameX="-9" frameY="-1" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red nuh uh0079" x="6871" y="1422" width="679" height="358" frameX="-9" frameY="-1" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red nuh uh0080" x="6871" y="1422" width="679" height="358" frameX="-9" frameY="-1" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red nuh uh0081" x="6871" y="1422" width="679" height="358" frameX="-9" frameY="-1" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red nuh uh0082" x="6871" y="1422" width="679" height="358" frameX="-9" frameY="-1" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red nuh uh0083" x="6871" y="1422" width="679" height="358" frameX="-9" frameY="-1" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red nuh uh0084" x="6871" y="1422" width="679" height="358" frameX="-9" frameY="-1" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red nuh uh0085" x="6871" y="1422" width="679" height="358" frameX="-9" frameY="-1" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red nuh uh0086" x="6871" y="1422" width="679" height="358" frameX="-9" frameY="-1" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red nuh uh0087" x="6871" y="1422" width="679" height="358" frameX="-9" frameY="-1" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red nuh uh0088" x="6871" y="1422" width="679" height="358" frameX="-9" frameY="-1" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red nuh uh0089" x="6871" y="1422" width="679" height="358" frameX="-9" frameY="-1" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red nuh uh0090" x="6871" y="1422" width="679" height="358" frameX="-9" frameY="-1" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red nuh uh0091" x="6871" y="1422" width="679" height="358" frameX="-9" frameY="-1" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red nuh uh0092" x="6871" y="1422" width="679" height="358" frameX="-9" frameY="-1" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red nuh uh0093" x="6871" y="1422" width="679" height="358" frameX="-9" frameY="-1" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red nuh uh0094" x="6871" y="1422" width="679" height="358" frameX="-9" frameY="-1" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red nuh uh0095" x="6871" y="1422" width="679" height="358" frameX="-9" frameY="-1" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red nuh uh0096" x="6871" y="1422" width="679" height="358" frameX="-9" frameY="-1" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red nuh uh0097" x="6871" y="1422" width="679" height="358" frameX="-9" frameY="-1" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red nuh uh0098" x="6871" y="1422" width="679" height="358" frameX="-9" frameY="-1" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red nuh uh0099" x="6871" y="1422" width="679" height="358" frameX="-9" frameY="-1" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red nuh uh0100" x="6871" y="1422" width="679" height="358" frameX="-9" frameY="-1" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red nuh uh0101" x="6871" y="1422" width="679" height="358" frameX="-9" frameY="-1" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red nuh uh0102" x="6871" y="1422" width="679" height="358" frameX="-9" frameY="-1" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red nuh uh0103" x="6871" y="1422" width="679" height="358" frameX="-9" frameY="-1" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red nuh uh0104" x="6871" y="1422" width="679" height="358" frameX="-9" frameY="-1" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red nuh uh0105" x="6871" y="1422" width="679" height="358" frameX="-9" frameY="-1" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red nuh uh0106" x="6871" y="1422" width="679" height="358" frameX="-9" frameY="-1" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red nuh uh0107" x="6871" y="1422" width="679" height="358" frameX="-9" frameY="-1" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red nuh uh0108" x="6871" y="1422" width="679" height="358" frameX="-9" frameY="-1" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red nuh uh0109" x="6871" y="1422" width="679" height="358" frameX="-9" frameY="-1" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red nuh uh0110" x="6871" y="1422" width="679" height="358" frameX="-9" frameY="-1" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red nuh uh0111" x="6871" y="1422" width="679" height="358" frameX="-9" frameY="-1" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red nuh uh0112" x="6871" y="1422" width="679" height="358" frameX="-9" frameY="-1" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red nuh uh0113" x="6871" y="1422" width="679" height="358" frameX="-9" frameY="-1" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red nuh uh0114" x="6871" y="1422" width="679" height="358" frameX="-9" frameY="-1" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red nuh uh0115" x="6871" y="1422" width="679" height="358" frameX="-9" frameY="-1" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red nuh uh0116" x="6871" y="1422" width="679" height="358" frameX="-9" frameY="-1" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red nuh uh0117" x="6871" y="1422" width="679" height="358" frameX="-9" frameY="-1" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red nuh uh0118" x="6871" y="1422" width="679" height="358" frameX="-9" frameY="-1" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red nuh uh0119" x="6871" y="1422" width="679" height="358" frameX="-9" frameY="-1" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red nuh uh0120" x="6871" y="1422" width="679" height="358" frameX="-9" frameY="-1" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red nuh uh0121" x="6871" y="1422" width="679" height="358" frameX="-9" frameY="-1" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red nuh uh0122" x="6871" y="1422" width="679" height="358" frameX="-9" frameY="-1" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red nuh uh0123" x="6871" y="1422" width="679" height="358" frameX="-9" frameY="-1" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red nuh uh0124" x="6871" y="1422" width="679" height="358" frameX="-9" frameY="-1" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red nuh uh0125" x="6871" y="1422" width="679" height="358" frameX="-9" frameY="-1" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red nuh uh0126" x="6871" y="1422" width="679" height="358" frameX="-9" frameY="-1" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red nuh uh0127" x="6871" y="1422" width="679" height="358" frameX="-9" frameY="-1" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red nuh uh0128" x="6871" y="1422" width="679" height="358" frameX="-9" frameY="-1" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red nuh uh0129" x="6871" y="1422" width="679" height="358" frameX="-9" frameY="-1" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red nuh uh0130" x="6871" y="1422" width="679" height="358" frameX="-9" frameY="-1" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red nuh uh0131" x="6871" y="1422" width="679" height="358" frameX="-9" frameY="-1" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red nuh uh0132" x="6871" y="1422" width="679" height="358" frameX="-9" frameY="-1" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red nuh uh0133" x="6871" y="1422" width="679" height="358" frameX="-9" frameY="-1" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red nuh uh0134" x="6871" y="1422" width="679" height="358" frameX="-9" frameY="-1" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red nuh uh0135" x="6871" y="1422" width="679" height="358" frameX="-9" frameY="-1" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red nuh uh0136" x="6871" y="1422" width="679" height="358" frameX="-9" frameY="-1" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red nuh uh0137" x="6871" y="1422" width="679" height="358" frameX="-9" frameY="-1" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red nuh uh0138" x="1" y="1747" width="679" height="358" frameX="-9" frameY="-1" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red well0000" x="6871" y="1422" width="679" height="358" frameX="-6" frameY="-1" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red well0001" x="6871" y="1422" width="679" height="358" frameX="-6" frameY="-1" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red well0002" x="6871" y="1422" width="679" height="358" frameX="-6" frameY="-1" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red well0003" x="6871" y="1422" width="679" height="358" frameX="-6" frameY="-1" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red well0004" x="6871" y="1422" width="679" height="358" frameX="-6" frameY="-1" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red well0005" x="6871" y="1422" width="679" height="358" frameX="-6" frameY="-1" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red well0006" x="6871" y="1422" width="679" height="358" frameX="-6" frameY="-1" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red well0007" x="6871" y="1422" width="679" height="358" frameX="-6" frameY="-1" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red well0008" x="6871" y="1422" width="679" height="358" frameX="-6" frameY="-1" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red well0009" x="6871" y="1422" width="679" height="358" frameX="-6" frameY="-1" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red well0010" x="6871" y="1422" width="679" height="358" frameX="-6" frameY="-1" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red well0011" x="6871" y="1422" width="679" height="358" frameX="-6" frameY="-1" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red well0012" x="6871" y="1422" width="679" height="358" frameX="-6" frameY="-1" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red well0013" x="6871" y="1422" width="679" height="358" frameX="-6" frameY="-1" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red well0014" x="6871" y="1422" width="679" height="358" frameX="-6" frameY="-1" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red well0015" x="6871" y="1422" width="679" height="358" frameX="-6" frameY="-1" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red well0016" x="6871" y="1422" width="679" height="358" frameX="-6" frameY="-1" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red well0017" x="6871" y="1422" width="679" height="358" frameX="-6" frameY="-1" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red well0018" x="4951" y="1056" width="683" height="354" frameX="-6" frameY="-5" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red well0019" x="4951" y="1056" width="683" height="354" frameX="-6" frameY="-5" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red well0020" x="535" y="1028" width="683" height="353" frameX="-3" frameY="-5" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red well0021" x="535" y="1028" width="683" height="353" frameX="-3" frameY="-5" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red well0022" x="6202" y="345" width="683" height="352" frameX="-2" frameY="-5" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red well0023" x="6202" y="345" width="683" height="352" frameX="-2" frameY="-5" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red well0024" x="6890" y="347" width="685" height="352" frameX="-0" frameY="-5" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red well0025" x="6890" y="347" width="685" height="352" frameX="-0" frameY="-5" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red well0026" x="6890" y="347" width="685" height="352" frameX="-0" frameY="-5" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red well0027" x="611" y="671" width="684" height="352" frameX="-0" frameY="-5" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red well0028" x="611" y="671" width="684" height="352" frameX="-0" frameY="-5" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red well0029" x="611" y="671" width="684" height="352" frameX="-0" frameY="-5" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red well0030" x="1300" y="677" width="684" height="352" frameX="-0" frameY="-5" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red well0031" x="1300" y="677" width="684" height="352" frameX="-0" frameY="-5" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red well0032" x="1300" y="677" width="684" height="352" frameX="-0" frameY="-5" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red well0033" x="1300" y="677" width="684" height="352" frameX="-0" frameY="-5" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red well0034" x="1300" y="677" width="684" height="352" frameX="-0" frameY="-5" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red well0035" x="1300" y="677" width="684" height="352" frameX="-0" frameY="-5" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red well0036" x="1300" y="677" width="684" height="352" frameX="-0" frameY="-5" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red well0037" x="1300" y="677" width="684" height="352" frameX="-0" frameY="-5" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red well0038" x="1300" y="677" width="684" height="352" frameX="-0" frameY="-5" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red well0039" x="1300" y="677" width="684" height="352" frameX="-0" frameY="-5" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red well0040" x="1" y="321" width="627" height="342" frameX="-22" frameY="-0" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red well0041" x="1" y="321" width="627" height="342" frameX="-22" frameY="-0" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red well0042" x="3638" y="1" width="639" height="335" frameX="-16" frameY="-5" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red well0043" x="3638" y="1" width="639" height="335" frameX="-16" frameY="-5" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red well0044" x="4282" y="1" width="639" height="335" frameX="-16" frameY="-5" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red well0045" x="4926" y="1" width="639" height="335" frameX="-16" frameY="-5" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red well0046" x="4926" y="1" width="639" height="335" frameX="-16" frameY="-5" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red well0047" x="5570" y="1" width="639" height="335" frameX="-16" frameY="-5" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red well0048" x="5570" y="1" width="639" height="335" frameX="-16" frameY="-5" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red well0049" x="5570" y="1" width="639" height="335" frameX="-16" frameY="-5" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red well0050" x="5570" y="1" width="639" height="335" frameX="-16" frameY="-5" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red well0051" x="5570" y="1" width="639" height="335" frameX="-16" frameY="-5" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red well0052" x="5570" y="1" width="639" height="335" frameX="-16" frameY="-5" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red well0053" x="5570" y="1" width="639" height="335" frameX="-16" frameY="-5" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red well0054" x="5570" y="1" width="639" height="335" frameX="-16" frameY="-5" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red well0055" x="5570" y="1" width="639" height="335" frameX="-16" frameY="-5" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red well0056" x="5570" y="1" width="639" height="335" frameX="-16" frameY="-5" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red well0057" x="5570" y="1" width="639" height="335" frameX="-16" frameY="-5" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red well0058" x="5570" y="1" width="639" height="335" frameX="-16" frameY="-5" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red well0059" x="5570" y="1" width="639" height="335" frameX="-16" frameY="-5" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red well0060" x="5570" y="1" width="639" height="335" frameX="-16" frameY="-5" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red well0061" x="5570" y="1" width="639" height="335" frameX="-16" frameY="-5" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red well0062" x="5570" y="1" width="639" height="335" frameX="-16" frameY="-5" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red well0063" x="5570" y="1" width="639" height="335" frameX="-16" frameY="-5" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red well0064" x="5570" y="1" width="639" height="335" frameX="-16" frameY="-5" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red well0065" x="5570" y="1" width="639" height="335" frameX="-16" frameY="-5" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red well0066" x="5570" y="1" width="639" height="335" frameX="-16" frameY="-5" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red well0067" x="5570" y="1" width="639" height="335" frameX="-16" frameY="-5" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red well0068" x="5570" y="1" width="639" height="335" frameX="-16" frameY="-5" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red well0069" x="5570" y="1" width="639" height="335" frameX="-16" frameY="-5" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red well0070" x="5570" y="1" width="639" height="335" frameX="-16" frameY="-5" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red well0071" x="5570" y="1" width="639" height="335" frameX="-16" frameY="-5" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red well0072" x="5570" y="1" width="639" height="335" frameX="-16" frameY="-5" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red well0073" x="5570" y="1" width="639" height="335" frameX="-16" frameY="-5" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red well0074" x="5570" y="1" width="639" height="335" frameX="-16" frameY="-5" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red well0075" x="5570" y="1" width="639" height="335" frameX="-16" frameY="-5" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red well0076" x="5570" y="1" width="639" height="335" frameX="-16" frameY="-5" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red well0077" x="5570" y="1" width="639" height="335" frameX="-16" frameY="-5" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red well0078" x="5570" y="1" width="639" height="335" frameX="-16" frameY="-5" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red well0079" x="5570" y="1" width="639" height="335" frameX="-16" frameY="-5" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red well0080" x="5570" y="1" width="639" height="335" frameX="-16" frameY="-5" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red well0081" x="5570" y="1" width="639" height="335" frameX="-16" frameY="-5" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red well0082" x="5570" y="1" width="639" height="335" frameX="-16" frameY="-5" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red well0083" x="5570" y="1" width="639" height="335" frameX="-16" frameY="-5" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red well0084" x="5570" y="1" width="639" height="335" frameX="-16" frameY="-5" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red well0085" x="5570" y="1" width="639" height="335" frameX="-16" frameY="-5" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red well0086" x="5570" y="1" width="639" height="335" frameX="-16" frameY="-5" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red well0087" x="5570" y="1" width="639" height="335" frameX="-16" frameY="-5" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red well0088" x="5570" y="1" width="639" height="335" frameX="-16" frameY="-5" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red well0089" x="5570" y="1" width="639" height="335" frameX="-16" frameY="-5" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red well0090" x="5570" y="1" width="639" height="335" frameX="-16" frameY="-5" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red well0091" x="5570" y="1" width="639" height="335" frameX="-16" frameY="-5" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red well0092" x="5570" y="1" width="639" height="335" frameX="-16" frameY="-5" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red well0093" x="5570" y="1" width="639" height="335" frameX="-16" frameY="-5" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red well0094" x="5570" y="1" width="639" height="335" frameX="-16" frameY="-5" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red well0095" x="5570" y="1" width="639" height="335" frameX="-16" frameY="-5" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red well0096" x="5570" y="1" width="639" height="335" frameX="-16" frameY="-5" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red well0097" x="5570" y="1" width="639" height="335" frameX="-16" frameY="-5" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red well0098" x="5570" y="1" width="639" height="335" frameX="-16" frameY="-5" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red well0099" x="5570" y="1" width="639" height="335" frameX="-16" frameY="-5" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red well0100" x="5570" y="1" width="639" height="335" frameX="-16" frameY="-5" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red well0101" x="5570" y="1" width="639" height="335" frameX="-16" frameY="-5" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red well0102" x="5570" y="1" width="639" height="335" frameX="-16" frameY="-5" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red well0103" x="5570" y="1" width="639" height="335" frameX="-16" frameY="-5" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red well0104" x="5570" y="1" width="639" height="335" frameX="-16" frameY="-5" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red well0105" x="5570" y="1" width="639" height="335" frameX="-16" frameY="-5" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red well0106" x="5570" y="1" width="639" height="335" frameX="-16" frameY="-5" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red well0107" x="5570" y="1" width="639" height="335" frameX="-16" frameY="-5" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red well0108" x="5570" y="1" width="639" height="335" frameX="-16" frameY="-5" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red well0109" x="5570" y="1" width="639" height="335" frameX="-16" frameY="-5" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red well0110" x="5570" y="1" width="639" height="335" frameX="-16" frameY="-5" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red well0111" x="5570" y="1" width="639" height="335" frameX="-16" frameY="-5" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red well0112" x="5570" y="1" width="639" height="335" frameX="-16" frameY="-5" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red well0113" x="5570" y="1" width="639" height="335" frameX="-16" frameY="-5" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red well0114" x="5570" y="1" width="639" height="335" frameX="-16" frameY="-5" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red well0115" x="5570" y="1" width="639" height="335" frameX="-16" frameY="-5" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red well0116" x="5570" y="1" width="639" height="335" frameX="-16" frameY="-5" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red well0117" x="5570" y="1" width="639" height="335" frameX="-16" frameY="-5" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red well0118" x="5570" y="1" width="639" height="335" frameX="-16" frameY="-5" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red well0119" x="5570" y="1" width="639" height="335" frameX="-16" frameY="-5" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red well0120" x="5570" y="1" width="639" height="335" frameX="-16" frameY="-5" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red well0121" x="5570" y="1" width="639" height="335" frameX="-16" frameY="-5" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red well0122" x="5570" y="1" width="639" height="335" frameX="-16" frameY="-5" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red well0123" x="5570" y="1" width="639" height="335" frameX="-16" frameY="-5" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red well0124" x="5570" y="1" width="639" height="335" frameX="-16" frameY="-5" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red well0125" x="5570" y="1" width="639" height="335" frameX="-16" frameY="-5" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red well0126" x="5570" y="1" width="639" height="335" frameX="-16" frameY="-5" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red well0127" x="5570" y="1" width="639" height="335" frameX="-16" frameY="-5" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red well0128" x="5570" y="1" width="639" height="335" frameX="-16" frameY="-5" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red well0129" x="5570" y="1" width="639" height="335" frameX="-16" frameY="-5" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red well0130" x="5570" y="1" width="639" height="335" frameX="-16" frameY="-5" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red well0131" x="5570" y="1" width="639" height="335" frameX="-16" frameY="-5" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red well0132" x="5570" y="1" width="639" height="335" frameX="-16" frameY="-5" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red well0133" x="5570" y="1" width="639" height="335" frameX="-16" frameY="-5" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red well0134" x="5570" y="1" width="639" height="335" frameX="-16" frameY="-5" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red well0135" x="5570" y="1" width="639" height="335" frameX="-16" frameY="-5" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red well0136" x="5570" y="1" width="639" height="335" frameX="-16" frameY="-5" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red well0137" x="5570" y="1" width="639" height="335" frameX="-16" frameY="-5" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red well0138" x="5570" y="1" width="639" height="335" frameX="-16" frameY="-5" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red well0139" x="5570" y="1" width="639" height="335" frameX="-16" frameY="-5" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red well0140" x="5570" y="1" width="639" height="335" frameX="-16" frameY="-5" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red well0141" x="5570" y="1" width="639" height="335" frameX="-16" frameY="-5" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red well0142" x="5570" y="1" width="639" height="335" frameX="-16" frameY="-5" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red well0143" x="5570" y="1" width="639" height="335" frameX="-16" frameY="-5" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red well0144" x="5570" y="1" width="639" height="335" frameX="-16" frameY="-5" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red well0145" x="5570" y="1" width="639" height="335" frameX="-16" frameY="-5" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red well0146" x="5570" y="1" width="639" height="335" frameX="-16" frameY="-5" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red well0147" x="5570" y="1" width="639" height="335" frameX="-16" frameY="-5" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red well0148" x="5570" y="1" width="639" height="335" frameX="-16" frameY="-5" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red well0149" x="5570" y="1" width="639" height="335" frameX="-16" frameY="-5" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red well0150" x="5570" y="1" width="639" height="335" frameX="-16" frameY="-5" frameWidth="691" frameHeight="361"/>
+	<SubTexture name="red what0000" x="7580" y="347" width="532" height="352" frameX="-0" frameY="-0" frameWidth="667" frameHeight="375"/>
+	<SubTexture name="red what0001" x="7580" y="347" width="532" height="352" frameX="-0" frameY="-0" frameWidth="667" frameHeight="375"/>
+	<SubTexture name="red what0002" x="1223" y="1034" width="530" height="353" frameX="-28" frameY="-5" frameWidth="667" frameHeight="375"/>
+	<SubTexture name="red what0003" x="1223" y="1034" width="530" height="353" frameX="-28" frameY="-5" frameWidth="667" frameHeight="375"/>
+	<SubTexture name="red what0004" x="7555" y="1422" width="492" height="360" frameX="-175" frameY="-15" frameWidth="667" frameHeight="375"/>
+	<SubTexture name="red what0005" x="7555" y="1422" width="492" height="360" frameX="-175" frameY="-15" frameWidth="667" frameHeight="375"/>
+	<SubTexture name="red what0006" x="1758" y="1041" width="496" height="353" frameX="-168" frameY="-14" frameWidth="667" frameHeight="375"/>
+	<SubTexture name="red what0007" x="1758" y="1041" width="496" height="353" frameX="-168" frameY="-14" frameWidth="667" frameHeight="375"/>
+	<SubTexture name="red what0008" x="2259" y="1047" width="496" height="353" frameX="-168" frameY="-14" frameWidth="667" frameHeight="375"/>
+	<SubTexture name="red what0009" x="2259" y="1047" width="496" height="353" frameX="-168" frameY="-14" frameWidth="667" frameHeight="375"/>
+	<SubTexture name="red what0010" x="2760" y="1052" width="496" height="353" frameX="-168" frameY="-14" frameWidth="667" frameHeight="375"/>
+	<SubTexture name="red what0011" x="2760" y="1052" width="496" height="353" frameX="-168" frameY="-14" frameWidth="667" frameHeight="375"/>
+	<SubTexture name="red what0012" x="3261" y="1052" width="496" height="353" frameX="-168" frameY="-14" frameWidth="667" frameHeight="375"/>
+	<SubTexture name="red what0013" x="3261" y="1052" width="496" height="353" frameX="-168" frameY="-14" frameWidth="667" frameHeight="375"/>
+	<SubTexture name="red what0014" x="3261" y="1052" width="496" height="353" frameX="-168" frameY="-14" frameWidth="667" frameHeight="375"/>
+	<SubTexture name="red what0015" x="3261" y="1052" width="496" height="353" frameX="-168" frameY="-14" frameWidth="667" frameHeight="375"/>
+	<SubTexture name="red what0016" x="3261" y="1052" width="496" height="353" frameX="-168" frameY="-14" frameWidth="667" frameHeight="375"/>
+	<SubTexture name="red what0017" x="3261" y="1052" width="496" height="353" frameX="-168" frameY="-14" frameWidth="667" frameHeight="375"/>
+	<SubTexture name="red what0018" x="3261" y="1052" width="496" height="353" frameX="-168" frameY="-14" frameWidth="667" frameHeight="375"/>
+	<SubTexture name="red what0019" x="3261" y="1052" width="496" height="353" frameX="-168" frameY="-14" frameWidth="667" frameHeight="375"/>
+	<SubTexture name="red what0020" x="3261" y="1052" width="496" height="353" frameX="-168" frameY="-14" frameWidth="667" frameHeight="375"/>
+	<SubTexture name="red what0021" x="3261" y="1052" width="496" height="353" frameX="-168" frameY="-14" frameWidth="667" frameHeight="375"/>
+	<SubTexture name="red what0022" x="3261" y="1052" width="496" height="353" frameX="-168" frameY="-14" frameWidth="667" frameHeight="375"/>
+	<SubTexture name="red what0023" x="3261" y="1052" width="496" height="353" frameX="-168" frameY="-14" frameWidth="667" frameHeight="375"/>
+	<SubTexture name="red what0024" x="3261" y="1052" width="496" height="353" frameX="-168" frameY="-14" frameWidth="667" frameHeight="375"/>
+	<SubTexture name="red what0025" x="3261" y="1052" width="496" height="353" frameX="-168" frameY="-14" frameWidth="667" frameHeight="375"/>
+	<SubTexture name="red what0026" x="3261" y="1052" width="496" height="353" frameX="-168" frameY="-14" frameWidth="667" frameHeight="375"/>
+	<SubTexture name="red what0027" x="3261" y="1052" width="496" height="353" frameX="-168" frameY="-14" frameWidth="667" frameHeight="375"/>
+	<SubTexture name="red what0028" x="3261" y="1052" width="496" height="353" frameX="-168" frameY="-14" frameWidth="667" frameHeight="375"/>
+	<SubTexture name="red what0029" x="3261" y="1052" width="496" height="353" frameX="-168" frameY="-14" frameWidth="667" frameHeight="375"/>
+	<SubTexture name="red what0030" x="3261" y="1052" width="496" height="353" frameX="-168" frameY="-14" frameWidth="667" frameHeight="375"/>
+	<SubTexture name="red what0031" x="3261" y="1052" width="496" height="353" frameX="-168" frameY="-14" frameWidth="667" frameHeight="375"/>
+	<SubTexture name="red what0032" x="3261" y="1052" width="496" height="353" frameX="-168" frameY="-14" frameWidth="667" frameHeight="375"/>
+	<SubTexture name="red what0033" x="3261" y="1052" width="496" height="353" frameX="-168" frameY="-14" frameWidth="667" frameHeight="375"/>
+	<SubTexture name="red what0034" x="3261" y="1052" width="496" height="353" frameX="-168" frameY="-14" frameWidth="667" frameHeight="375"/>
+	<SubTexture name="red what0035" x="3261" y="1052" width="496" height="353" frameX="-168" frameY="-14" frameWidth="667" frameHeight="375"/>
+	<SubTexture name="red what0036" x="3261" y="1052" width="496" height="353" frameX="-168" frameY="-14" frameWidth="667" frameHeight="375"/>
+	<SubTexture name="red what0037" x="3261" y="1052" width="496" height="353" frameX="-168" frameY="-14" frameWidth="667" frameHeight="375"/>
+	<SubTexture name="red what0038" x="3261" y="1052" width="496" height="353" frameX="-168" frameY="-14" frameWidth="667" frameHeight="375"/>
+	<SubTexture name="red what0039" x="3261" y="1052" width="496" height="353" frameX="-168" frameY="-14" frameWidth="667" frameHeight="375"/>
+	<SubTexture name="red what0040" x="3261" y="1052" width="496" height="353" frameX="-168" frameY="-14" frameWidth="667" frameHeight="375"/>
+	<SubTexture name="red what0041" x="3261" y="1052" width="496" height="353" frameX="-168" frameY="-14" frameWidth="667" frameHeight="375"/>
+	<SubTexture name="red what0042" x="3261" y="1052" width="496" height="353" frameX="-168" frameY="-14" frameWidth="667" frameHeight="375"/>
+	<SubTexture name="red what0043" x="3261" y="1052" width="496" height="353" frameX="-168" frameY="-14" frameWidth="667" frameHeight="375"/>
+	<SubTexture name="red what0044" x="3261" y="1052" width="496" height="353" frameX="-168" frameY="-14" frameWidth="667" frameHeight="375"/>
+	<SubTexture name="red what0045" x="3261" y="1052" width="496" height="353" frameX="-168" frameY="-14" frameWidth="667" frameHeight="375"/>
+	<SubTexture name="red what0046" x="3261" y="1052" width="496" height="353" frameX="-168" frameY="-14" frameWidth="667" frameHeight="375"/>
+	<SubTexture name="red what0047" x="3261" y="1052" width="496" height="353" frameX="-168" frameY="-14" frameWidth="667" frameHeight="375"/>
+	<SubTexture name="red what0048" x="3261" y="1052" width="496" height="353" frameX="-168" frameY="-14" frameWidth="667" frameHeight="375"/>
+	<SubTexture name="red what0049" x="3261" y="1052" width="496" height="353" frameX="-168" frameY="-14" frameWidth="667" frameHeight="375"/>
+	<SubTexture name="red what0050" x="3261" y="1052" width="496" height="353" frameX="-168" frameY="-14" frameWidth="667" frameHeight="375"/>
+	<SubTexture name="red what0051" x="3261" y="1052" width="496" height="353" frameX="-168" frameY="-14" frameWidth="667" frameHeight="375"/>
+	<SubTexture name="red what0052" x="3261" y="1052" width="496" height="353" frameX="-168" frameY="-14" frameWidth="667" frameHeight="375"/>
+	<SubTexture name="red what0053" x="3261" y="1052" width="496" height="353" frameX="-168" frameY="-14" frameWidth="667" frameHeight="375"/>
+	<SubTexture name="red what0054" x="3261" y="1052" width="496" height="353" frameX="-168" frameY="-14" frameWidth="667" frameHeight="375"/>
+	<SubTexture name="red what0055" x="3261" y="1052" width="496" height="353" frameX="-168" frameY="-14" frameWidth="667" frameHeight="375"/>
+	<SubTexture name="red what0056" x="3261" y="1052" width="496" height="353" frameX="-168" frameY="-14" frameWidth="667" frameHeight="375"/>
+	<SubTexture name="red what0057" x="3261" y="1052" width="496" height="353" frameX="-168" frameY="-14" frameWidth="667" frameHeight="375"/>
+	<SubTexture name="red what0058" x="3261" y="1052" width="496" height="353" frameX="-168" frameY="-14" frameWidth="667" frameHeight="375"/>
+	<SubTexture name="red what0059" x="3261" y="1052" width="496" height="353" frameX="-168" frameY="-14" frameWidth="667" frameHeight="375"/>
+	<SubTexture name="red what0060" x="3261" y="1052" width="496" height="353" frameX="-168" frameY="-14" frameWidth="667" frameHeight="375"/>
+	<SubTexture name="red what0061" x="3261" y="1052" width="496" height="353" frameX="-168" frameY="-14" frameWidth="667" frameHeight="375"/>
+	<SubTexture name="red what0062" x="3261" y="1052" width="496" height="353" frameX="-168" frameY="-14" frameWidth="667" frameHeight="375"/>
+	<SubTexture name="red what0063" x="3261" y="1052" width="496" height="353" frameX="-168" frameY="-14" frameWidth="667" frameHeight="375"/>
+	<SubTexture name="red what0064" x="3261" y="1052" width="496" height="353" frameX="-168" frameY="-14" frameWidth="667" frameHeight="375"/>
+	<SubTexture name="red what0065" x="3261" y="1052" width="496" height="353" frameX="-168" frameY="-14" frameWidth="667" frameHeight="375"/>
+	<SubTexture name="red what0066" x="3261" y="1052" width="496" height="353" frameX="-168" frameY="-14" frameWidth="667" frameHeight="375"/>
+	<SubTexture name="red what0067" x="3261" y="1052" width="496" height="353" frameX="-168" frameY="-14" frameWidth="667" frameHeight="375"/>
+	<SubTexture name="red what0068" x="3261" y="1052" width="496" height="353" frameX="-168" frameY="-14" frameWidth="667" frameHeight="375"/>
+	<SubTexture name="red what0069" x="3261" y="1052" width="496" height="353" frameX="-168" frameY="-14" frameWidth="667" frameHeight="375"/>
+	<SubTexture name="red what0070" x="3261" y="1052" width="496" height="353" frameX="-168" frameY="-14" frameWidth="667" frameHeight="375"/>
+	<SubTexture name="red what0071" x="3261" y="1052" width="496" height="353" frameX="-168" frameY="-14" frameWidth="667" frameHeight="375"/>
+	<SubTexture name="red what0072" x="3261" y="1052" width="496" height="353" frameX="-168" frameY="-14" frameWidth="667" frameHeight="375"/>
+	<SubTexture name="red what0073" x="3261" y="1052" width="496" height="353" frameX="-168" frameY="-14" frameWidth="667" frameHeight="375"/>
+	<SubTexture name="red what0074" x="3261" y="1052" width="496" height="353" frameX="-168" frameY="-14" frameWidth="667" frameHeight="375"/>
+	<SubTexture name="red what0075" x="3261" y="1052" width="496" height="353" frameX="-168" frameY="-14" frameWidth="667" frameHeight="375"/>
+	<SubTexture name="red what0076" x="3261" y="1052" width="496" height="353" frameX="-168" frameY="-14" frameWidth="667" frameHeight="375"/>
+	<SubTexture name="red what0077" x="3261" y="1052" width="496" height="353" frameX="-168" frameY="-14" frameWidth="667" frameHeight="375"/>
+	<SubTexture name="red what0078" x="3261" y="1052" width="496" height="353" frameX="-168" frameY="-14" frameWidth="667" frameHeight="375"/>
+	<SubTexture name="red what0079" x="3261" y="1052" width="496" height="353" frameX="-168" frameY="-14" frameWidth="667" frameHeight="375"/>
+	<SubTexture name="red what0080" x="3261" y="1052" width="496" height="353" frameX="-168" frameY="-14" frameWidth="667" frameHeight="375"/>
+	<SubTexture name="red what0081" x="3261" y="1052" width="496" height="353" frameX="-168" frameY="-14" frameWidth="667" frameHeight="375"/>
+	<SubTexture name="red what0082" x="3261" y="1052" width="496" height="353" frameX="-168" frameY="-14" frameWidth="667" frameHeight="375"/>
+	<SubTexture name="red what0083" x="3261" y="1052" width="496" height="353" frameX="-168" frameY="-14" frameWidth="667" frameHeight="375"/>
+	<SubTexture name="red what0084" x="3261" y="1052" width="496" height="353" frameX="-168" frameY="-14" frameWidth="667" frameHeight="375"/>
+	<SubTexture name="red what0085" x="3261" y="1052" width="496" height="353" frameX="-168" frameY="-14" frameWidth="667" frameHeight="375"/>
+	<SubTexture name="red what0086" x="3261" y="1052" width="496" height="353" frameX="-168" frameY="-14" frameWidth="667" frameHeight="375"/>
+	<SubTexture name="red what0087" x="3261" y="1052" width="496" height="353" frameX="-168" frameY="-14" frameWidth="667" frameHeight="375"/>
+	<SubTexture name="red what0088" x="3261" y="1052" width="496" height="353" frameX="-168" frameY="-14" frameWidth="667" frameHeight="375"/>
+	<SubTexture name="red what0089" x="3261" y="1052" width="496" height="353" frameX="-168" frameY="-14" frameWidth="667" frameHeight="375"/>
+	<SubTexture name="red what0090" x="3261" y="1052" width="496" height="353" frameX="-168" frameY="-14" frameWidth="667" frameHeight="375"/>
+	<SubTexture name="red what0091" x="3261" y="1052" width="496" height="353" frameX="-168" frameY="-14" frameWidth="667" frameHeight="375"/>
+	<SubTexture name="red what0092" x="3261" y="1052" width="496" height="353" frameX="-168" frameY="-14" frameWidth="667" frameHeight="375"/>
+	<SubTexture name="red what0093" x="3261" y="1052" width="496" height="353" frameX="-168" frameY="-14" frameWidth="667" frameHeight="375"/>
+	<SubTexture name="red what0094" x="3762" y="1052" width="496" height="353" frameX="-168" frameY="-14" frameWidth="667" frameHeight="375"/>
+	<SubTexture name="right pose0000" x="1962" y="1" width="571" height="320" frameX="-2" frameY="-4" frameWidth="574" frameHeight="325"/>
+	<SubTexture name="right pose0001" x="1962" y="1" width="571" height="320" frameX="-2" frameY="-4" frameWidth="574" frameHeight="325"/>
+	<SubTexture name="right pose0002" x="2538" y="1" width="567" height="325" frameX="-0" frameY="-0" frameWidth="574" frameHeight="325"/>
+	<SubTexture name="up pose0000" x="6296" y="1785" width="481" height="461" frameX="-2" frameY="-0" frameWidth="489" frameHeight="461"/>
+	<SubTexture name="up pose0001" x="6296" y="1785" width="481" height="461" frameX="-2" frameY="-0" frameWidth="489" frameHeight="461"/>
+	<SubTexture name="up pose0002" x="5802" y="1785" width="489" height="451" frameX="-0" frameY="-9" frameWidth="489" frameHeight="461"/>
+	<SubTexture name="up pose0003" x="5802" y="1785" width="489" height="451" frameX="-0" frameY="-9" frameWidth="489" frameHeight="461"/>
+</TextureAtlas>

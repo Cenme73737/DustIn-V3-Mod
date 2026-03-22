@@ -1,0 +1,31 @@
+{
+	"customValues": {
+		"customName": "月 隐 癫 魂",
+		"titleCardSubtext": "* 由 David0414/pause(0.5)/\n* 合作. George",
+		"credits": {
+			"CHART": "GOJIMANPLAYS",
+			"BACKGROUND": "NEF, WILLART-MEI",
+			"SPRITES": "HEV, WILLART-MEI",
+			"SONG": "DAVID0414, GEORGE"
+		},
+		"gameover": {
+			"isMonster": false,
+			"quote": "…呵呵",
+			"song": "psychopath",
+			"sound": "sans"
+		},
+		"stats": "* 衫斯 1 攻击 1 防御\n* 想尝试些新东西。\n* 也不过是曾经的空壳罢了。"
+	},
+	"color": "#FFFFFF",
+	"opponentModeAllowed": false,
+	"difficulties": [
+		"hard"
+	],
+	"icon": "gf_killer",
+	"coopAllowed": false,
+	"stepsPerBeat": 4,
+	"displayName": "Psychopath",
+	"needsVoices": true,
+	"beatsPerMeasure": 4,
+	"bpm": 128
+}

@@ -1,0 +1,32 @@
+{
+	"opponentModeAllowed": true,
+	"difficulties": [
+		"hard"
+	],
+	"icon": "sans_avulsion",
+	"coopAllowed": true,
+	"name": "avulsion",
+	"color": "#FFFFFF",
+	"customValues": {
+		"customName": "抽离",
+		"gameover": {
+			"quote": "你不会再用这个太久了。",
+			"isMonster": false,
+			"sound": "sans",
+			"song": "avulsion"
+		},
+		"credits": {
+			"SPRITES": "HORRORSPINN, SAMUEL PASTEL",
+			"BACKGROUND": "HLOARTS",
+			"CHART": "GOJIMANPLAYS",
+			"SONG": "MAR MAR, CHEZZAR, SKIE"
+		},
+		"titleCardSubtext": "* 由 Mar Mar/pause(0.5)/\n* 合作. Chezzar & Skie",
+		"stats": "* 衫斯 - 91 攻击 76 防御 \n* 他的目光穿透了你的思绪。\n* 还拿着一个奇怪的遥控器。"
+	},
+	"stepsPerBeat": 4,
+	"displayName": "Avulsion",
+	"needsVoices": true,
+	"beatsPerMeasure": 4,
+	"bpm": 165
+}

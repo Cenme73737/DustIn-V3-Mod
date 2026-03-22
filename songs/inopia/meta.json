@@ -1,0 +1,33 @@
+{
+	"beatsPerMeasure": 4,
+	"opponentModeAllowed": false,
+	"coopAllowed": false,
+	"stepsPerBeat": 4,
+	"bpm": 132,
+	"difficulties": [
+		"hard"
+	],
+	"needsVoices": true,
+	"parsedColor": -7179779,
+	"displayName": "Inopia",
+	"icon": "face",
+	"name": "inopia",
+	"color": "#9271FD",
+	"customValues": {
+		"customName": "缺乏",
+		"gameover" :{
+			"quote": "KEVIN，亲爱的 请记住我们的约定。",
+			"sound": "gf",
+			"song": "inopia",
+			"isMonster": false
+		},
+		"credits": {
+			"SONG": "CHEZZAR, UG32T, SKIE",
+			"SPRITES": "CHEZZAR",
+			"BACKGROUND": "WILLART-MEI",
+			"CHART": "WILLART-MEI"
+			},
+		"titleCardSubtext": "* 由 Chezzar/pause(0.5)/\n* 合作. Ug32T & Skie",
+		"stats": "* 衫斯 1 攻击 1 防御\n* 上次进食已有7年之久。\n* 他似乎很痛苦。"
+	}
+}

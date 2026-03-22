@@ -1,0 +1,35 @@
+{
+	"customValues": {
+		"characterY": null,
+		"character": null,
+		"credits": {
+			"CHART": "CURIOUS, GOJIMANPLAYS",
+			"BACKGROUND": "WEEDEET",
+			"SPRITES": "HORRORSPINN, WILLART-MEI, ALHAMBRITO119, MERRITZ, CHEZZAR",
+			"SONG": "MAR MAR, SKIE, MADHAYTER, CHOMA, DAVID0414, CHEZZAR"
+		},
+		"mainColor": null,
+		"customName": "现 实 瓦 解",
+		"titleCardSubtext": "* 由 Mar Mar, Skie/pause(0.5)/\n* 合作. M, C, C, D （已简略）",
+		"gameover": {
+			"isMonster": false,
+			"quote": "我会等着。",
+			"song": "broken-reality",
+			"sound": "sans"
+		},
+		"characterX": null,
+		"stats": "* 衫斯 - 97 攻击 81 防御 \n* 月光穿透了你的罪孽。\n* 最终之战已开始。"
+	},
+	"color": "#FFFFFF",
+	"opponentModeAllowed": false,
+	"difficulties": [
+		"hard"
+	],
+	"icon": "bf-br",
+	"coopAllowed": false,
+	"stepsPerBeat": 4,
+	"displayName": "Broken Reality",
+	"needsVoices": true,
+	"beatsPerMeasure": 4,
+	"bpm": 120
+}

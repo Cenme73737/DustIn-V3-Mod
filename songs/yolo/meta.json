@@ -1,0 +1,24 @@
+{
+	"name": "yolo",
+	"displayName": "YOLO",
+	"needsVoices": true,
+	"bpm": 190,
+	"icon": "sans-fresh",
+	"customValues": {
+		"gameover" :{
+			"quote": "拜托，伙计，你就这点本事？",
+			"sound": "sans",
+			"song": "yolo",
+			"isMonster": false
+		},
+		"customName": "人生只有一次",
+		"titleCardSubtext": "* 由 Chezzar",
+		"stats": "* 衫斯 10 攻击 999999999 防御\n* 不懂什么是私人空间。\n* 多元宇宙中 最酷 的存在。",
+		"credits": {
+			"SONG": "CHEZZAR",
+			"SPRITES": "CHUF, CHEZZAR",
+			"BACKGROUND": "DAS",
+			"CHART": "FROSTIC"
+			}
+	}
+}

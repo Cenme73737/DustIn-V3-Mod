@@ -1,0 +1,30 @@
+{
+	"beatsPerMeasure": 4,
+	"opponentModeAllowed": true,
+	"coopAllowed": true,
+	"stepsPerBeat": 4,
+	"bpm": 120,
+	"needsVoices": true,
+	"parsedColor": -1,
+	"displayName": "Haunted",
+	"icon": "bonetravaganza-paps",
+	"name": "haunted",
+	"color": "#FFFFFF",
+	"customValues": {
+		"customName": "鬼影幢幢",
+		"stats": "* 帕派瑞斯 65 攻击 42 防御\n* 他的举止已不再像他自己。\n* 他的眼神让你不寒而栗。",
+		"gameover" :{
+			"quote": "简直是无稽之谈，干脆重置吧 人类。",
+			"sound": "paps",
+			"song": "haunted",
+			"isMonster": false
+		},
+		"titleCardSubtext": "* 由 Skie",
+		"credits": {
+			"SONG": "SKIE",
+			"SPRITES": "HORRORSPINN, MERRITZ, WILLART-MEI",
+			"BACKGROUND": "JFLOID",
+			"CHART": "FROSTIC"
+			}
+	}
+}

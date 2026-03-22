@@ -1,0 +1,31 @@
+{
+	"opponentModeAllowed": true,
+	"difficulties": [
+		"hard"
+	],
+	"icon": "player",
+	"coopAllowed": true,
+	"name": "you-are",
+	"color": "#FFFFFF",
+	"stepsPerBeat": 4,
+	"displayName": "YOU-ARE",
+	"beatsPerMeasure": 4,
+	"needsVoices": true,
+	"bpm": 174,
+	"customValues": {
+		"credits": {
+			"CHART": "GOJIMANPLAYS",
+			"BACKGROUND": "WEEDEET, JFLOID",
+			"SPRITES": "WEEDEET, FIZZYPOP",
+			"SONG": "CHEZZAR, UG32T, SKIE"
+		},
+		"gameover": {
+			"isMonster": false,
+			"quote": "…离开他的身体。",
+			"song": "you-are",
+			"sound": "gf"
+		},
+		"stats": "* BOYFRIEND 37 攻击 30 防御\n* 你的容器。\n* 而你正在失去对他的控制。",
+		"titleCardSubtext": "* 由 Chezzar/pause(0.5)/\n* 合作. Ug32t & Chezzar"
+	}
+}

@@ -1,0 +1,33 @@
+{
+	"beatsPerMeasure": 4,
+	"opponentModeAllowed": false,
+	"coopAllowed": false,
+	"stepsPerBeat": 4,
+	"bpm": 170,
+	"difficulties": [
+		"hard"
+	],
+	"needsVoices": true,
+	"displayName": "Genocides",
+	"icon": "genocides-sans",
+	"name": "genocides",
+	"customValues": {
+		"mainColor": "#FFFFFF",
+		"gameover" :{
+			"quote": "人类，我记得你死了。",
+			"sound": "sans",
+			"song": "genocides",
+			"isMonster": false
+		},
+		"customName": "种族灭绝",
+		"characterX": "-30",
+		"titleCardSubtext": "* 由 Skie/pause(0.5)/\n* 合作. Chezzar and Mar Mar",
+		"stats": "* 衫斯 ？？ 攻击 ？？ 防御\n* 最难对付的敌人。\n* 死后重置去吧 孩子…",
+		"credits": {
+			"SONG": "SKIE, CHEZZAR, MAR MAR",
+			"SPRITES": "WEEDEET",
+			"BACKGROUND": "UNDERTALE",
+			"CHART": "FROSTIC"
+			}
+	}
+}
