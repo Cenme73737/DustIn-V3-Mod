@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character x="-3700" y="340" sprite="you-are/SansFINALE" scale="0.75" camx="100" camy="-100" icon="sans-finale" color="#C7E6E6" holdTime="6.1">
+	<anim name="idle" anim="idle"/>
+	<anim name="singLEFT" anim="left" x="204" y="-23"/>
+	<anim name="singDOWN" anim="down" x="69" y="-189"/>
+	<anim name="singUP" anim="up" x="16" y="253"/>
+	<anim name="singRIGHT" anim="right" x="85" y="-16"/>
+</character>

@@ -1,0 +1,20 @@
+<!DOCTYPE codename-engine-stage>
+<stage playerZoom="0.455" healthBarSkin="br" gfZoom="0.2" folder="stages/hall/" noteSkin="br" timeBarSkin="br" zoom="0.455" name="hall">
+	<sprite zoomfactor="1.01" scrollx="0.8" sprite="back" name="back"/>
+	<sprite sprite="ground" name="ground"/>
+	<sprite sprite="paps_bg" name="paps_bg"/>
+	<girlfriend alpha="0" x="3300" y="1950"/>
+	<dad camxoffset="50" x="1400" camyoffset="-35" y="2630" scale="1.15"/>
+	<boyfriend scale="1.25" camxoffset="-590" x="5170" y="2700"/>
+	<sprite sprite="light" name="light"/>
+	<sprite x="300" scrollx="2" sprite="fg" name="fg"/>
+	<sprite x="300" scrollx="2" sprite="paps_fg" name="paps_fg"/>
+	<sprite x="-200" scroll="0" sprite="cine/pico" y="-200" zoomfactor="0" alpha="0" scale="0.66667" name="cine1"/>
+	<sprite x="-240" scroll="0" sprite="cine/gf" y="-220" zoomfactor="0" alpha="0" scale="0.66667" name="cine2"/>
+	<sprite x="-340" scroll="0" sprite="cine/sans" y="-320" zoomfactor="0" alpha="0" scale="0.66667" name="cine3"/>
+	<sprite x="-340" scroll="0" sprite="cine/paps" y="-120" zoomfactor="0" alpha="0" scale="0.66667" name="cine4"/>
+	<sprite x="-340" scroll="0" sprite="cine/Undyne" y="-260" zoomfactor="0" alpha="0" scale="0.66667" name="cine5"/>
+	<sprite x="-340" scroll="0" sprite="cine/mettaton" y="-260" zoomfactor="0" alpha="0" scale="0.66667" name="cine6"/>
+	<sprite x="-340" scroll="0" sprite="cine/dt_extractor" y="-230" zoomfactor="0" alpha="0" scale="0.66667" name="cine7"/>
+	<sprite x="-340" scroll="0" sprite="cine/flowey" y="-260" zoomfactor="0" alpha="0" scale="0.66667" name="cine8"/>
+</stage>

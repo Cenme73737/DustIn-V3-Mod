@@ -1,0 +1,692 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<language>
+	<group name="General Editor Translations" prefix="editor.">
+		<str id="autosavingIn">自动保存 将在 {0} 秒后{1}</str>
+		<str id="autosavingCanceledSuffix">（已取消）！</str>
+
+		<str id="ok">好的</str>
+		<str id="cancel">取消</str>
+		<str id="save">保存</str>
+		<str id="saveClose">保存并关闭</str>
+		<str id="close">关闭</str>
+		<str id="notNow">暂时不用</str>
+		<str id="yes">好</str>
+
+		<group name="Warnings" prefix="warnings.">
+		<str id="mkRequirement-title">警告：需使用鼠标和键盘！</str>
+		<str id="mkRequirement-body">您即将进入一个编辑器。使用该编辑器需要连接鼠标和键盘。\n（您可能需要将“触控按键透明度”设为0）\n\n\n要继续吗？</str>
+		</group>
+	</group>
+
+	<group name="UIImageExplorer" prefix="uiImageExplorer.">
+		<str id="symbol">Symbol</str>
+		<str id="animation">Animation</str>
+		<str id="atlas">Atlas</str>
+		<str id="spritemap">Spritemap</str>
+
+		<str id="directory">Directory ({0}/)</str>
+		<str id="found">{0} {1} Found</str>
+		<str id="foundplural">{0} {1} Found</str>
+		<str id="notFound">#NO {0}s Found#</str>
+		<str id="foundAtlas">{0} Spritemap Found</str>
+		<str id="foundAtlasplural">{0} Spritemaps Found</str>
+
+		<str id="fileAlreadyExists">The following files alreadly exist: \n\n{0}\n\nIMPORTANT: OVERRIDING CAN NOT BE UNDONE!</str>
+		<str id="override">Override Files</str>
+		<str id="useExisting">Use Existing</str>
+	</group>
+
+	<group name="EditorPicker" prefix="editor.">
+		<str id="alphabet.name">Alphabet Editor 字体编辑器</str>
+		<str id="chart.name">Chart Editor 谱面编辑器</str>
+		<str id="character.name">Character Editor 人物编辑器</str>
+		<str id="stage.name">Stage Editor 背景编辑器</str>
+		<str id="uiDebug.name">UI Debug State 用户界面调试状态</str>
+		<str id="wiki.name">Wiki 维基百科</str>
+		<str id="debugOptions.name">Debug Options</str>
+	</group>
+
+	<group name="ChartEditor">
+		<group name="CharterSelection" prefix="charterSelection.">
+			<str id="desc">选择一首歌曲以修改其谱面。</str>
+			<str id="acceptSong">按 Enter 键选择要编辑的难度。</str>
+			<str id="acceptVariation">按 Enter 键选择要编辑的歌曲变体。</str>
+			<str id="acceptDifficulty">按 Enter 键编辑所选难度的谱面。</str>
+			<str id="selectDifficulty">选择一个难度以继续。</str>
+			<str id="newDifficulty">New Difficulty</str>
+			<str id="newDifficultyDesc">按 Enter 键创建一个新的谱面难度。</str>
+			<str id="newSong">New Song</str>
+			<str id="newSongDesc">按 Enter 键创建一首新歌曲。</str>
+			<str id="newVariation">New Variation</str>
+			<str id="newVariationDesc">按 Enter 键创建一个新的歌曲变体。</str>
+		</group>
+
+		<group name="ChartCreationScreen" prefix="chartCreation.">
+			<str id="title">创建 新谱面</str>
+			<str id="info">谱面信息</str>
+			<str id="diffName">难度名</str>
+			<str id="stage">背景</str>
+			<str id="scrollSpeed">谱面流速</str>
+
+			<str id="strumLineList">扫弦线 $*至少需要1条扫弦线$</str>
+			<str id="strumLine.format">扫弦线 - #{0}</str>
+
+			<group name="Warnings" prefix="warnings.">
+				<str id="song-exists-title">Creating Song: Error!</str>
+				<str id="song-exists-body">The song you are trying to create already exists, if you would like to override it delete the song first!</str>
+				<str id="chart-exists-title">Creating Chart: Error!</str>
+				<str id="chart-exists-body">The chart you are trying to create already exists, if you would like to override it delete the chart first!</str>
+			</group>
+		</group>
+
+		<group name="ChartDataScreen" prefix="chartDataScreen.">
+			<str id="title">Chart Properties</str>
+			<str id="editChartData">编辑谱面数据</str>
+			<str id="stage">背景</str>
+			<str id="scrollSpeed">谱面流速</str>
+		</group>
+
+		<group name="SongPosInfo" prefix="songPosInfo.">
+			<str id="step">步骤： {0}</str>
+			<str id="beat">节拍： {0}</str>
+			<str id="measure">小节： {0}</str>
+			<str id="bpm">每分节拍数： {0}</str>
+			<str id="timeSignature">拍子记号 {0}/{1}</str>
+		</group>
+
+		<group name="CharterEventScreen" prefix="charterEventScreen.">
+			<str id="title-creating">Create Event Group</str>
+			<str id="title-editing">Edit Event Group</str>
+
+			<str id="noEvent">无 事件</str>
+
+			<str id="strumLine.format">Strumline #{0} ({1})</str>
+		</group>
+
+		<group name="CharterEventTypeSelection" prefix="charterEventTypeSelection.">
+			<str id="title">选择一个事件类型…</str>
+		</group>
+
+		<group name="CharterMetaDataScreen" prefix="charterMetaDataScreen.">
+			<str id="title">Edit Metadata</str>
+
+			<str id="songData">歌曲 数据</str>
+			<str id="songName">歌曲 名</str>
+			<str id="variation">歌曲变体</str>
+			<str id="bpm">每分节拍数</str>
+			<str id="timeSignature">拍子记号</str>
+			<str id="menusData">菜单数据（自由模式/故事模式）</str>
+			<str id="displayName">显示的曲名</str>
+			<str id="icon">小图标</str>
+			<str id="modesAllowed">允许的模式</str>
+			<str id="color">颜色</str>
+			<str id="difficulties">难度</str>
+			<str id="customValues">自定义数值（高级）</str>
+			<str id="needsVoices">需要 人声</str>
+
+			<str id="opponentMode">对手模式</str>
+			<str id="coopAllowed">合作模式</str>
+		</group>
+
+		<group name="CharterNoteTypesList" prefix="charterNoteTypesList.">
+			<str id="title">音符类型列表编辑</str>
+
+			<str id="editNoteTypes">编辑音符类型</str>
+			<str id="editType">音符类型 {0}</str>
+		</group>
+
+		<group name="CharterStrumlineScreen" prefix="charterStrumlineScreen.">
+			<str id="win-title-creating">正在创建扫弦线 {0}</str>
+			<str id="win-title-editing">正在编辑扫弦线 {0} 属性</str>
+
+			<str id="title-creating">创建新扫弦线</str>
+			<str id="title-editing">编辑扫弦线属性</str>
+		</group>
+
+		<group name="SongCreationScreen" prefix="songCreationScreen.">
+			<str id="win-title">创建 新歌曲</str>
+			<str id="win-title-importing">导入歌曲中</str>
+			<str id="title">歌曲信息</str>
+
+			<str id="instAudio">背景音乐 音频文件 $*必填项*$</str>
+			<str id="voicesAudio">人声 音频文件</str>
+
+			<str id="importFrom">从……导入</str>
+			<str id="importSource">导入来源：</str>
+			<str id="legacyOrPsych">Psych/Legacy FNF</str>
+			<str id="vslice">V-Slice</str>
+			<str id="vsliceProject">V-Slice 项目 (.fnfc)</str>
+			<str id="importChartFormat">谱面 格式</str>
+			<str id="importAudios">添加 音频</str>
+			<str id="songFileName">Song file name $* 必填项$</str>
+			<str id="songDataFile">Data/Chart File $* 必填项$</str>
+			<str id="songMetaFile">Meta File $* 必填项$</str>
+
+			<str id="back">返回</str>
+			<str id="next">下一步</str>
+		</group>
+
+		<group name="StrumlineOptions" prefix="charterStrumLine.">
+			<str id="characters">人物</str>
+			<str id="newChar">新人物</str>
+			<str id="type">类型</str>
+			<str id="scrollSpeed">谱面流速</str>
+			<str id="stagePos">背景位置</str>
+			<str id="scale">缩放</str>
+			<str id="spacing">间隔</str>
+			<str id="hudPos">HUD位置（X [比例 0-1]，Y）</str>
+			<str id="visible">可见？</str>
+			<str id="useChartScrollSpeed">是否使用谱面滚速？</str>
+			<str id="vocalSuffix">人声后缀</str>
+			<str id="keyCount">按键数量</str>
+		</group>
+
+		<group name="ChartEditor" prefix="charter.">
+			<!-- Charter.hx -->
+			<group name="TopBar">
+				<str id="topBar.file">文件 </str>
+				<group name="FileMenu" prefix="file.">
+					<str id="new">New</str>
+					<str id="save">保存</str>
+					<str id="saveAs">保存为…</str>
+					<str id="saveGlobalEvents">保存全局事件</str>
+					<str id="saveGlobalEventsAs">全局事件另存为…</str>
+					<str id="saveNoLocalEvents">保存无本地事件的谱面.............</str>
+					<str id="saveNoLocalEventsAs">无本地事件的谱面另存为…</str>
+					<str id="saveMeta">保存 元数据</str>
+					<str id="saveMetaAs">元数据另存为…</str>
+					<str id="exportFnfLegacy">导出FNF Legacy格式…</str>
+					<str id="exportPsych">导出Psych Engine格式…</str>
+					<str id="exit">退出</str>
+				</group>
+
+				<str id="topBar.edit">编辑 </str>
+				<group name="EditMenu" prefix="edit.">
+					<str id="undo">撤回</str>
+					<str id="redo">重做</str>
+					<str id="copy">复制</str>
+					<str id="paste">粘贴</str>
+					<str id="cut">剪切</str>
+					<str id="delete">删除</str>
+				</group>
+
+				<str id="topBar.chart">谱面 </str>
+				<group name="ChartMenu" prefix="chart.">
+					<str id="playtest">测试播放</str>
+					<str id="playtestHere">在此处测试播放</str>
+					<str id="playtestOpponent">在对手位测试播放</str>
+					<str id="playtestOpponentHere">在此对手位测试播放</str>
+					<str id="enableScripts">测试播放时使用脚本</str>
+					<str id="editChartData">编辑谱面数据</str>
+					<str id="editMetadata">编辑元数据信息</str>
+				</group>
+
+				<str id="topBar.view">查看 </str>
+				<group name="ViewMenu" prefix="view.">
+					<str id="zoomIn">放大</str>
+					<str id="zoomOut">缩小</str>
+					<str id="resetZoom">重置缩放</str>
+					<str id="showSectionsSeparator">显示段落分隔线</str>
+					<str id="showBeatsSeparator">显示节拍分隔线</str>
+					<str id="rainbowWaveforms">彩虹波形</str>
+					<str id="lowDetailWaveforms">低细节波纹</str>
+					<str id="scrollLeft">向右滚动</str>
+					<str id="scrollRight">向左滚动</str>
+					<str id="scrollReset">重置滚动</str>
+				</group>
+
+				<str id="topBar.song">歌曲 </str>
+				<group name="SongMenu" prefix="song.">
+					<str id="goStart">返回起始位置.......</str>
+					<str id="goEnd">前进至结束位置.......</str> <!-- 原为 "Go to the end" -->
+					<str id="addOpponentCamera">添加对手视角</str>
+					<str id="addPlayerCamera">添加玩家视角</str>
+					<str id="muteInst">静音乐器音</str>
+					<str id="muteVoices">静音人声</str>
+</group>
+
+				<group name="BookmarkMenu" prefix="bookmarks.">
+					<str id="addBookmarkHere">在此处添加书签</str>
+					<str id="editBookmarkList">编辑书签列表</str>
+					<str id="goTo">前往"{0}"</str>
+					<str id="createBookmarkTitle">正在创建新书签…</str>
+					<str id="createBookmarkName">书签名称：</str>
+					<str id="createBookmarkColor">书签颜色：</str>
+					<str id="editBookmarkListTitle">书签列表</str>
+					<str id="editBookmarksTitle">编辑书签</str>
+					<str id="newBookmarkName">新书签</str>
+</group>
+
+
+				<str id="topBar.note">音符</str>
+				<group name="NoteMenu" prefix="note.">
+					<str id="addSustainLength">增加延音时长</str>
+					<str id="subtractSustainLength">减少延音时长</str>
+					<str id="selectAll">全选</str>
+					<str id="selectMeasure">选择当前段落</str>
+					<str id="editNoteTypesList">编辑音符类型列表</str>
+				</group>
+				<str id="topBar.snap">吸附</str>
+				<group name="SnapMenu" prefix="snap.">
+					<str id="increaseSnap">↑ 网格吸附</str>
+					<str id="resetSnap">重置网格吸附</str>
+					<str id="decreaseSnap">↓ 网格吸附</str>
+
+					<str id="snap">{0}x 网格吸附</str>
+				</group>
+
+				<str id="topBar.playback">回放</str>
+				<group name="PlaybackMenu" prefix="playback.">
+					<str id="play">播放/暂停</str>
+					<str id="speedRaise">↑ 速度增加 {0}%</str>
+					<str id="speedReset">重置速度</str>
+					<str id="speedLower">↓ 速度减少 {0}%</str>
+					<str id="sectionBack">返回上一段</str>
+					<str id="sectionForward">前进到下一段</str>
+					<str id="sectionStart">前往段落开头</str>
+					<str id="backStep">后退一步</str>
+					<str id="forwardStep">前进一步</str>
+					<str id="metronome">节拍器</str>
+					<str id="visualMetronome">视觉 节拍器</str>
+				</group>
+			</group>
+
+			<group name="NoteTypes" prefix="noteTypes.">
+				<str id="default">默认 音符</str>
+			</group>
+
+			<group name="EventTypes" prefix="events.">
+				<!-- You can add your custom event types here! -->
+				<!-- Just need to do some conversion from the raw name to the id -->
+				<!-- Example: HScript Call -> hscriptCall -->
+				<!-- Example: Change Character -> changeCharacter -->
+				<str id="hscriptCall">HScript Call</str>
+				<str id="cameraMovement">Camera Movement</str>
+				<str id="addCameraZoom">Add Camera Zoom</str>
+				<str id="cameraModuloChange">Camera Modulo Change</str>
+				<str id="cameraFlash">Camera Flash</str>
+				<str id="bpmChange">BPM Change</str>
+				<str id="scrollSpeedChange">Scroll Speed Change</str>
+				<str id="altAnimationToggle">Alt Animation Toggle</str>
+				<str id="playAnimation">Play Animation</str>
+			</group>
+
+			<group name="StrumlineOptions" prefix="strumLine.">
+				<str id="button-name">设置 ↓</str>
+
+				<str id="hitsounds">打击音效</str>
+				<str id="muteVocals">静音人声</str>
+				<str id="edit">编辑</str>
+				<str id="delete">删除</str>
+
+				<str id="noWaveform">无波形</str>
+			</group>
+
+			<str id="createNew">创建新项</str>
+			<str id="lock-unlock">锁定/解锁</str>
+
+			<str id="info.localEvents">本地事件\n（仅当前难度）</str>
+			<str id="info.globalEvents">全局事件\n（所有难度）</str>
+			<str id="eventType-local">本地事件</str>
+			<str id="eventType-global">全局事件</str>
+
+			<!-- CharterEventAdd.hx -->
+			<str id="addEvent">添加事件</str>
+			<str id="editEvent">编辑</str> <!-- Should maybe be "Edit Event" -->
+			<str id="deleteEvent">Delete Event</str>
+
+			<group name="Notifications" prefix="popup.">
+				<str id="savedChartAt">谱面已保存至 {0}！</str>
+			</group>
+		</group>
+	</group>
+
+	<group name="CharacterEditor">
+		<group name="CharacterSelection" prefix="characterSelection.">
+			<str id="acceptFolder">按下 Enter 以编辑此文件夹。</str>
+			<str id="acceptCharacter">按下 Enter 以编辑该人物。</str>
+			<str id="newCharacter">New Character</str>
+			<str id="newCharacterDesc">按下 Enter 以创建新人物。</str>
+			<str id="desc">选择一个人物进行编辑</str>
+			<str id="desc-folder">选择一个人物以进入编辑 {0}</str>
+		</group>
+
+		<group name="CharacterInfoScreen" prefix="characterInfoScreen.">
+			<str id="win-title">编辑人物中</str>
+			<str id="title">编辑人物信息</str>
+			<str id="icon">小图标</str>
+			<str id="iconColor">血条颜色</str>
+			<str id="singDuration">演唱时长</str>
+			<str id="useSingDuration">使用演唱时长？</str>
+			<str id="customValues">自定义数值（高级）</str>
+		</group>
+
+		<group name="CharacterEditor" prefix="characterEditor.">
+			<group name="TopBar">
+				<str id="topBar.file">文件 </str>
+				<group name="FileMenu" prefix="file.">
+					<str id="new">New</str>
+					<str id="save">保存</str>
+					<str id="saveAs">保存为…</str>
+					<str id="exit">退出</str>
+				</group>
+
+				<str id="topBar.edit">编辑 </str>
+				<group name="EditMenu" prefix="edit.">
+					<str id="copyOffset">复制偏移量</str>
+					<str id="pasteOffset">粘贴偏移量</str>
+					<str id="undo">撤回</str>
+					<str id="redo">重做</str>
+					<str id="editInfo">编辑信息</str>
+					<str id="editSprite">编辑精灵图</str>
+				</group>
+
+				<str id="topBar.offset">偏移 </str>
+				<group name="OffsetsMenu" prefix="offset.">
+					<str id="moveLeft">想左移动</str>
+					<str id="moveUp">向上移动</str>
+					<str id="moveDown">向下移动</str>
+					<str id="moveRight">向右移动</str>
+					<str id="moveExtraLeft">额外向左移动</str>
+					<str id="moveExtraUp">额外向上移动</str>
+					<str id="moveExtraDown">额外向下移动</str>
+					<str id="moveExtraRight">额外向右移动</str>
+					<str id="dragOffsetsMouse">是否使用鼠标拖动偏移量？</str>
+					<str id="clearOffsets">清除偏移量</str>
+				</group>
+
+				<str id="topBar.stage">背景 </str>
+				<group name="StageMenu" prefix="stage.">
+					<str id="useStage">使用 “{0}”</str>
+					<str id="useNone">不使用背景</str>
+				</group>
+
+				<str id="topBar.view">查看 </str>
+				<group name="ViewMenu" prefix="view.">
+					<str id="zoomIn">放大</str>
+					<str id="zoomOut">缩小</str>
+					<str id="resetZoom">重置缩放</str>
+					<str id="charHitbox">人物碰撞箱？</str>
+					<str id="charCam">人物摄像机？</str>
+					<str id="axis">XY 轴？</str>
+				</group>
+
+				<str id="topBar.animation">动画</str>
+				<group name="AnimationMenu" prefix="animation.">
+					<str id="playAnim">播放动画</str>
+					<str id="stopAnim">暂停动画</str>
+					<str id="changeAnimUp">切换动画 ↑</str>
+					<str id="changeAnimDown">切换动画 ↓</str>
+					<str id="playAnimOnOffset">调整偏移量时播放动画？</str>
+				</group>
+
+				<group name="CharacterPropertiesWindow" prefix="characterProperties.">
+					<str id="position">位置（X，Y）</str>
+					<str id="scale">缩放比例</str>
+					<str id="editInfo">编辑信息</str>
+					<str id="editSprite">编辑精灵图</str>
+					<str id="camPosition">摄像机位置（X，Y）</str>
+					<str id="charFlipped">翻转？</str>
+					<str id="antialiased">开启据齿轮？</str>
+					<str id="testCharAs">将人物测试为…</str>
+					<str id="charDesign">人物设计定位为…</str>
+				</group>
+
+				<group name="CharacterAnimButton" prefix="characterAnim.">
+					<str id="defaultAnimName">新建动画</str>
+					<str id="name">名称</str>
+					<str id="anim">动画</str>
+					<str id="position">位置（X，Y）</str>
+					<str id="fps">帧数</str>
+					<str id="indices">索引（帧）</str>
+				</group>
+
+				<group name="CharacterSpriteScreen" prefix="characterSpriteScreen.">
+					<str id="win-title">编辑人物精灵图</str>
+					<str id="charImageFile">人物贴图文件 $* 必填项$</str>
+				</group>
+			</group>
+		</group>
+
+		<group name="CharacterCreationScreen" prefix="characterCreationScreen.">
+			<str id="win-title">正在创建新人物</str>
+			<str id="charName">人物名称 $* 必填项$</str>
+			<str id="charImgName">人物贴图文件 $* 必填项$</str>
+
+			<group name="Warnings" prefix="warnings.">
+				<str id="char-exists-title">Creating Character: Error!</str>
+				<str id="char-exists-body">The character you are trying to create already exists, if you would like to override it delete the character first!</str>
+			</group>
+		</group>
+	</group>
+
+	<group name="AlphabetEditor" prefix="editor.alphabet.">
+		<group name="AlphabetSelection" prefix="selection.">
+			<str id="acceptTypeface">点击 Enter 以编辑该字体。</str>
+			<str id="newTypeface">New Typeface</str>
+			<str id="newTypefaceDesc">点击 Enter 以创建新字体。</str>
+			<str id="desc">选择要编辑的字体</str>
+
+			<group name="Warnings" prefix="warnings.">
+				<str id="notImplemented-title">新增字体：该功能尚未实现！</str>
+				<str id="notImplemented-body">该功能尚未实现。请等待更多更新，以启用此功能。\n\n\n- 代号（Codename）团队</str>
+			</group>
+		</group>
+
+		<group name="AlphabetEditor">
+			<group name="TopBar">
+				<str id="topBar.file">文件 </str>
+				<group name="FileMenu" prefix="file.">
+					<str id="new">New</str>
+					<str id="save">保存</str>
+					<str id="saveAs">保存为…</str>
+					<str id="exit">退出</str>
+				</group>
+
+				<str id="topBar.edit">编辑 </str>
+				<group name="EditMenu" prefix="edit.">
+					<str id="undo">撤回</str>
+					<str id="redo">重做</str>
+				</group>
+
+				<str id="topBar.glyph">Glyph</str>
+				<group name="GlyphMenu" prefix="glyph.">
+					<str id="newGlyph">新建字形</str>
+					<str id="editGlyph">编辑字形</str>
+					<str id="deleteGlyph">删除字形</str>
+					<str id="deleteCurGlyph">删除当前字形</str>
+				</group>
+
+				<str id="topBar.offset">Offsets</str>
+				<group name="OffsetsMenu" prefix="offset.">
+					<str id="moveLeft">Move Left</str>
+					<str id="moveUp">Move Up</str>
+					<str id="moveDown">Move Down</str>
+					<str id="moveRight">Move Right</str>
+					<str id="moveExtraLeft">Move Extra Left</str>
+					<str id="moveExtraUp">Move Extra Up</str>
+					<str id="moveExtraDown">Move Extra Down</str>
+					<str id="moveExtraRight">Move Extra Right</str>
+					<str id="clearOffsets">Clear Offsets</str>
+				</group>
+
+				<str id="topBar.view">查看 </str>
+				<group name="ViewMenu" prefix="view.">
+					<str id="zoomIn">放大</str>
+					<str id="zoomOut">缩小</str>
+					<str id="resetZoom">重置缩放</str>
+				</group>
+			</group>
+		</group>
+	</group>
+
+	<group name="StageEditor">
+		<group name="StageSelection" prefix="stageSelection.">
+			<str id="desc">选择要编辑的背景。不支持仅含HSCRIPT的背景。</str>
+			<str id="acceptStage">按下 Enter 以编辑此背景。</str>
+			<str id="newStage">New Stage</str>
+			<str id="acceptNewStage">按下 Enter 以创建一个新背景。</str>
+		</group>
+
+		<group name="StageEditor" prefix="stageEditor.">
+			<group name="TopBar">
+				<str id="topBar.file">文件 </str>
+				<group name="FileMenu" prefix="file.">
+					<str id="save">保存</str>
+					<str id="saveAs">保存为…</str>
+					<str id="exit">退出</str>
+				</group>
+
+				<str id="topBar.edit">编辑 </str>
+				<group name="EditMenu" prefix="edit.">
+					<str id="undo">撤回</str>
+					<str id="redo">重做</str>
+					<str id="editStageInfo">编辑背景信息</str>
+				</group>
+
+				<str id="topBar.select">选择 </str>
+				<group name="SelectionMenu" prefix="select.">
+					<str id="all">选择全部</str>
+					<str id="deselect">取消选择</str>
+					<str id="inverse">反向选择</str>
+				</group>
+
+				<str id="topBar.view">查看 </str>
+				<group name="ViewMenu" prefix="view.">
+					<str id="zoomIn">放大</str>
+					<str id="zoomOut">缩小</str>
+					<str id="zoomReset">重置缩放</str>
+					<str id="focusDad">焦点聚集在 Dad</str>
+					<str id="focusGF">焦点聚集在 GF</str>
+					<str id="focusBF">焦点聚集在 BF</str>
+				</group>
+
+				<str id="topBar.editor">编辑 </str>
+				<group name="EditorMenu" prefix="editor.">
+					<str id="showCharacters">显示人物</str>
+				</group>
+
+				<group name="StageSpriteScreen" prefix="stageSpriteScreen.">
+					<str id="win-title">编辑背景精灵图</str>
+					<str id="stageImageFile">背景贴图文件 $* 必填项$</str>
+				</group>
+			</group>
+		</group>
+
+		<group name="StageCreationScreen" prefix="stageCreationScreen.">
+			<str id="win-title">创建新背景中</str>
+			<str id="title">背景信息</str>
+			<str id="stageName">背景名称</str>
+			<str id="stagePath">背景路径</str>
+
+			<group name="Warnings" prefix="warnings.">
+				<str id="stage-exists-title">创建背景中：错误！</str>
+				<str id="stage-exists-body">您尝试创建的背景已存在。若要覆盖该背景，请先删除它！</str>
+			</group>
+		</group>
+
+		<group name="StageInfoScreen" prefix="stageInfoScreen.">
+			<str id="win-title">编辑背景 “{0}” 的信息</str>
+			<str id="title">背景信息</str>
+			<str id="stageName">背景名称</str>
+			<str id="spritePath">精灵图路径\n（需要刷新）</str>
+			<str id="startCamPos">相机起始位置（X，Y）</str>
+			<str id="zoom">缩放</str>
+		</group>
+
+		<group name="StageElementEditScreen" prefix="stageElementEditScreen.">
+			<str id="win-character-title">编辑人物 “{0}”</str>
+			<str id="win-sprite-title">编辑精灵图 “{0}”</str>
+			<str id="win-title">编辑 XML &lt;{0} /&gt;</str>
+
+			<str id="character-title">人物数据</str>
+			<str id="sprite-title">精灵图数据</str>
+			<str id="title">XML 数据</str>
+
+			<str id="elementName">元素名称</str>
+			<str id="nameID">名称标识符</str>
+			<str id="imageFile">贴图文件（开发中：需重新加载）
+位于（${stage.spritesParentFolder}）</str>
+			<str id="scroll">滚动 {0}</str>
+			<str id="scale">缩放 {0}</str>
+			<str id="camera">相机 {0}</str>
+			<str id="spacing">间距（X，Y）</str>
+			<str id="skew">倾斜 {0}</str>
+			<str id="alpha">透明度</str>
+			<str id="angle">角度</str>
+			<str id="zoomFactor">缩放系数</str>
+			<str id="positionName">位置名称</str>
+			<str id="flipX">水平翻转</str>
+			<str id="antialiasing">抗锯齿</str>
+			<str id="highMemory">高内存</str>
+			<str id="lowMemory">低内存</str>
+			<str id="attributes">属性</str>
+			<str id="transformPreview">变换预览：</str>
+
+
+			<str id="animType">动画类型</str>
+			<group name="AnimTypeDropdown" prefix="animType.">
+				<str id="none">无</str>
+				<str id="beat">节拍同步</str>
+				<str id="loop">循环</str>
+			</group>
+			<str id="tipCustomProperties">提示：若要访问自定义属性，\n点击“编辑”时按住 Shift 键。</str>
+		</group>
+
+		<group name="StageXMLEditScreen" prefix="stageXMLEditScreen.">
+			<str id="win-title">Editing {0} XML</str>
+			<str id="title">Xml Data</str>
+			<str id="attributes">Attributes</str>
+		</group>
+
+		<str id="stageCharacters.requiredPosition">This character position is required in stages!</str>
+		<str id="stageCharacters.noDeleteGirlfriend">You can't delete Girlfriend</str>
+
+		<group name="StageElement" prefix="stageElement.">
+			<str id="scale">缩放比例： {0}， {1}</str>
+			<str id="scroll">滚动： {0}， {1}</str>
+		</group>
+
+		<group name="StageSprites" prefix="stageSprites.">
+			<str id="win-title">背景精灵图</str>
+			<str id="sprite">精灵图</str>
+			<str id="box">方框</str>
+			<str id="character">人物</str>
+			<str id="warnings.not-implemented">创建方框的功能尚未实现！</str>
+		</group>
+	</group>
+
+	<!-- PlayTesting and SaveWarning are almost the same but with some small differences -->
+	<!-- PlayTesting allows color in the description by doing *hello* -->
+	<!-- SaveWarning doesn't allow color in the description -->
+	<group name="PlayTesting" prefix="playtesting.">
+		<str id="chartPlaytesting" notrim="true"> (Chart Playtesting)</str>
+		<str id="exitGame">退出游戏</str>
+		<str id="exitToMenu">退出至菜单</str>
+		<str id="saveAndExitGame">保存 &amp; Exit Game</str>
+		<str id="saveAndExitToMenu">保存 &amp; 退出至菜单</str>
+		<str id="cancel">关闭</str>
+
+		<str id="warningTitle">未保存的更改！</str>
+		<str id="warningDesc">如果不保存，您的更改将会*丢失*。（无法恢复）\n\n\n是否要取消？</str>
+	</group>
+
+	<group name="SaveWarning" prefix="saveWarning.">
+		<str id="warningTitle">未保存的更改！</str>
+		<str id="warningDesc">如果不保存，您的更改将会丢失。（无法恢复）\n\n\n是否要取消？</str>
+
+		<str id="exitGame">退出游戏</str>
+		<str id="exitToMenu">退出至菜单</str>
+		<str id="saveAndExitGame">保存并退出游戏</str>
+		<str id="saveAndExitToMenu">保存并退出至菜单</str>
+		<str id="cancel">关闭</str>
+	</group>
+
+	<group name="ModConfigWarning" prefix="modConfigWarning.">
+		<str id="warningTitle">缺少模组文件夹配置！</str>
+		<str id="warningDesc">您的模组当前缺少模组配置文件！\n\n是否要自动生成一个？\n\n（补充说明：若此模组非您所有，\n请禁用开发者模式以阻止此弹窗弹出。）</str>
+
+		<str id="createdTitle">已创建模组配置文件！</str>
+		<str id="createdDesc">您的模组配置文件已创建于 {0}！</str>
+	</group>
+</language>

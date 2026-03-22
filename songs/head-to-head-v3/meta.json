@@ -1,0 +1,35 @@
+{
+	"customValues": {
+		"characterY": null,
+		"character": null,
+		"credits": {
+			"SPRITES": "HORRORSPINN, WILLART-MEI, ALHAMBRITO119, MERRITZ, CHEZZAR, Dustin'制作团队(如有遗漏)",
+			"BACKGROUND": "WEEDEET",
+			"CHART": "TD Sans,可恶的360(特效与机制)",
+			"SONG": "TD Sans"
+		},
+		"mainColor": null,
+		"customName": "Head To Head",
+		"titleCardSubtext": "* 由可恶的360制作\n* 歌曲与铺面来自TD Sans的版本",
+		"gameover": {
+			"quote": "* 想再来一次重置吗?\n* 我奉陪到底",
+			"isMonster": false,
+			"sound": "sans",
+			"song": "perseverance"
+		},
+		"stats": "* 衫斯 - 1 攻击 1 防御 \n* 他不是第一次与你战斗了\n* 最后的晚来的审判即将降临",
+		"characterX": null
+	},
+	"color": "#9271FD",
+	"opponentModeAllowed": false,
+	"difficulties": [
+		"normal"
+	],
+	"icon": "face",
+	"coopAllowed": true,
+	"stepsPerBeat": 4,
+	"displayName": "Head to Head V3",
+	"needsVoices": true,
+	"beatsPerMeasure": 4,
+	"bpm": 150
+}

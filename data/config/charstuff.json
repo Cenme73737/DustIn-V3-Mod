@@ -1,0 +1,251 @@
+[
+  {
+    "name": "尘埃传说",
+    "characters": [
+      {
+        "name": "BF",
+        "desc": "坠入地下并逃离Pico后，复仇的印记已刻在他的心上。他会变得足够强大，并为GF复仇。",
+        "authors": "* FUNKIN 团队",
+        "image": "game/ui/pause/characterIcons/you-are",
+        "offset": { "x": 20, "y": 95 }
+      },
+      {
+        "name": "Pico",
+        "desc": "在与BF对唱时，他注意到自己陷入了时间循环，于是杀害了GF，因为他发现GF是时间线不断重置的原因。杀死GF后，一股强大的力量涌遍了他的全身。\n\n一种他从未感受过的东西: 他获得了 \"经验值。\" 在追捕BF却因BF坠入地下而失去其踪迹后，他开始杀害越来越多的人，到我们在“起义”中看到他时，他实际上已经变得不朽了。",
+        "authors": "* TOM FULP",
+        "image": "game/ui/pause/characterIcons/pico",
+        "offset": { "x": 20, "y": 95 }
+      },
+      {
+        "name": "衫斯",
+        "desc": "一个懒惰但广受喜爱的骷髅，擅长讲笑话，却背负着任何人都不应背负的知识。当人类进行了足够多次重置后，奇怪的事情发生了。\n\n他现在知道自己记起了以往时间线，而凭借这份知识…他得出结论，打败人类的唯一方法是获得足够的经验值，让他们不可能获胜。是帕派瑞斯的兄弟。",
+        "authors": "* 询问_尘埃传说",
+        "image": "game/ui/pause/characterIcons/perseverance",
+        "offset": { "x": 20, "y": 30 }
+      },
+      {
+        "name": "帕派瑞斯",
+        "desc": "性格快活，痴迷于谜题和意面，一心想成为皇家守卫，并变得足够受欢迎，交到很多朋友，是衫斯的兄弟。",
+        "authors": "* Toby Fox",
+        "image": "game/ui/pause/characterIcons/kinemorto",
+        "offset": { "x": 40, "y": 40 }
+      },
+      {
+        "name": "幻影 帕斯",
+        "desc": "衫斯心中的一个幻影，由他亲手杀死兄弟所感受到的巨大愧疚催生而成。不过…似乎仍有不少 \"帕派瑞斯\" 的幻影在其中。",
+        "authors": "* 询问_尘埃传说",
+        "image": "game/ui/pause/characterIcons/phantom_paps",
+        "offset": { "x": -25, "y": -10 }
+      },
+      {
+        "name": "安黛因",
+        "desc": "地下世界皇家守卫队的勇猛领袖，同时也是地下世界希望的灯塔。\n\n即便她本应被彻底击倒，却依然坚持着，因为她知道，自己或许是阻止那些杀人凶手屠戮所见之人、防止世界毁灭的唯一屏障。\n\n凭借自身的决心，她战胜死亡，继续战斗。",
+        "authors": "* Toby Fox",
+        "image": "game/ui/pause/characterIcons/undyne",
+        "offset": { "x": -25, "y": -30  }
+      },
+      {
+        "name": "镁塔顿 NEO",
+        "desc": "地下世界里光彩夺目的娱乐明星。\n\n由于缺乏维护，核心发生爆炸后，他不得不在熔岩中变身成NEO形态，适应了熔岩环境，给自己换上了一副 \"火辣\" 的新造型。",
+        "authors": "* Toby Fox",
+        "image": "game/ui/pause/characterIcons/mtt",
+        "offset": { "x": -40, "y": -30  }
+      },
+      {
+        "name": "坦克兵",
+        "desc": "约翰 \"坦克兵\" 上尉中士。在Pico把他所有部队的所有人都杀了之后，他成了部队最后的幸存者…",
+        "authors": "* TOM FULP",
+        "image": "game/ui/pause/characterIcons/the-uprising",
+        "offset": { "x": 10, "y": 30 }
+      }
+    ]
+  },
+  {
+    "name": "尘埃反转",
+    "characters": [
+      {
+        "name": "帕派瑞斯",
+        "desc": "在 \"反转传说\" AU 版本的帕派瑞斯，如今像 尘埃传说 中的衫斯一样，更大程度地意识到了自己所生活世界的本质。\n\n乍一看你可能猜不到，但他仍然是衫斯的弟弟，而且他只比 传说之下 里的 衫斯 稍微精力充沛一点。",
+        "authors": "* RENMARGO",
+        "image": "game/ui/pause/characterIcons/homie-cide",
+        "offset": { "x": -30, "y": 25 }
+      },
+      {
+        "name": "衫斯",      
+        "desc": "在 \"反转传说\" AU 版本的衫斯。\n\n他的性格与 传说之下 中的帕派瑞斯大致相同，但有几个明显的不同点: 他喜欢做墨西哥菜 而不是意大利菜，而且和 传说之下 中的杉斯一样喜欢双关语之类的玩笑。",
+        "authors": "* RENMARGO",
+        "image": "game/ui/pause/characterIcons/swap-sans",
+        "offset": { "x": 30, "y": 100 }
+      }
+    ]
+  },
+  {
+    "name": "尘埃残暴",
+    "characters": [
+      {
+        "name": "衫斯",
+        "desc": "一个 \"更黑暗且更尖锐\" 的原版衫斯的版本，由于他所处世界的本质。\n\n他比 传说之下 中原版的衫斯更严厉，而且明显更喜欢敲门笑话而不是双关语，同时努力让自己更 \"冷静沉稳。\"\n\n他背负着与原版衫斯相同的知识\"尘埃传说。\"",
+        "authors": "* RENMARGO",
+        "image": "game/ui/pause/characterIcons/overthrone",
+        "offset": { "x": 25, "y": 80 }
+      }
+    ]
+  },
+  {
+    "name": "尘埃不信",
+    "characters": [
+      {
+        "name": "帕派瑞斯",
+        "desc": "这个版本的帕派瑞斯为了自卫，被迫杀死了自己的兄弟。在兄弟弥留之际，杉斯告诉了帕派瑞斯正在发生的一切，也让他背负起了关于他们世界真实本质的知识。\n\n随着力量的增强，帕派瑞斯明显变得更加疯狂，他得出结论，要让人类停下脚步再也不回来，最好的办法就是在他们死前让他们承受尽可能多的痛苦。",
+        "authors": "* AUDE-JAVEL",
+        "image": "game/ui/pause/characterIcons/haunted",
+        "offset": { "x": 0, "y": 0 }
+      },
+      {
+        "name": "幻影 衫斯",
+        "desc": "帕派瑞斯心中的一个幻影，与“尘埃传说”中的幻影帕派瑞斯由相似的境遇催生而成\n\n正努力帮助他的兄弟完成他未能完成的事。",
+        "authors": "* AUDE-JAVEL",
+        "image": "game/ui/pause/characterIcons/phantom-sans",
+        "offset": { "x": 20, "y": 20 }
+      },
+      {
+        "name": "苏醒 衫斯",
+        "desc": "衫斯并非真正活着，但帕派瑞斯那交织在一起的力量与疯狂凝聚成形，让他尽可能地接近真实存在。\n\n然而，归根结底，这不过是帕派瑞斯心中所构想的那个衫斯罢了。",
+        "authors": "* AUDE-JAVEL",
+        "image": "game/ui/pause/characterIcons/bonz_sans",
+        "offset": { "x": 10, "y": 100 }
+      },
+      {
+        "name": "Rev. 安黛因",
+        "desc": "处于和衫斯相同的状态。\n\n另一个由帕派瑞斯心中的幻想所化形的存在，源自他最珍视的一位朋友。",
+        "authors": "* AUDE-JAVEL",
+        "image": "game/ui/pause/characterIcons/bonz_undyne",
+        "offset": { "x": -10, "y": 0 }
+      }
+    ]
+  },
+  {
+    "name": "尘埃错乱",
+    "characters": [
+      {
+        "name": "猹",
+        "desc": "处在衫斯位置的 猹。\n\n他们是艾斯利尔的养兄弟姐妹(两人之间，他们常常扮演着理性之声的角色)，对世界有着非常愤世嫉俗的看法，并且对人类怀有深深的憎恨。\n\n由于这是 \"尘埃反转\" 版本的猹，Ta背负着与原版 \"尘埃传说。\"中衫斯相同的知识",
+        "authors": "* THECH1CKNLORD",
+        "image": "game/ui/pause/characterIcons/redscreen",
+        "offset": { "x": -20, "y": 50 }
+      }
+    ]
+  },
+  {
+    "name": "恐惧传说",
+    "characters": [
+      {
+        "name": "衫斯",
+        "desc": "这个版本的衫斯头骨被打碎，原本的魔法眼睛也被已然成为地下世界残暴女王的安黛因夺走。\n\n他的精神状态已严重受损，几乎对是非对错毫不在意。地下世界遭遇的饥荒更是让情况雪上加霜。尽管如此，在 恐惧传说 漫画中，当他因饥饿发狂扯掉艾莉莎的手臂时，还是流露出了些许懊悔与悲伤。",
+        "authors": "* SOUR APPLE",
+        "image": "game/ui/pause/characterIcons/inopia",
+        "offset": { "x": 15, "y": 75 }
+      },
+      {
+        "name": "帕派瑞斯",
+        "desc": "尽管他的外表要吓人得多，但他基本上还是 传说之下 原版中的那个帕派瑞斯。\n\n如今，他甚至受到周围其他怪物的崇拜，因为他们认为他或许是地下世界里唯一还保留着道德感的人。不过需要说明的是，如今他做的意大利面里，可能多了一些…\"有机\" 食材。",
+        "authors": "* SOUR APPLE",
+        "image": "game/ui/pause/characterIcons/horror-paps",
+        "offset": { "x": 15, "y": -30 }
+      }
+    ]
+  },
+  {
+    "name": "潮流传说",
+    "characters": [
+      {
+        "name": "衫斯",
+        "desc": "他并非真正的 \"衫斯,\" 因为他的身体不过是其眼中的寄生虫的宿主罢了。\n\n一个古怪的家伙，根本不懂什么叫私人空间。",
+        "authors": "* LOVEROFPIGGIES",
+        "image": "game/ui/pause/characterIcons/yolo",
+        "offset": { "x": 20, "y": 65   }
+      }
+    ]
+  },
+  {
+    "name": "地域之诗",
+    "characters": [
+      {
+        "name": "错误 衫斯",
+        "desc": "虽然他曾经只是那个普通的老衫斯，但一些怪事在他身上发生了。\n\n 由于它能够用 \"决心\" 的力量，将自己原本的世界维持在最佳状态，而这一行为却让他陷入了一种非常奇特的境地——坠入了宇宙之间的夹缝，并产生了无法修复的故障。\n\n他现在致力于摧毁每一个存在的平行宇宙。",
+        "authors": "* LOVEROFPIGGIES",
+        "image": "game/ui/pause/characterIcons/Uncreate",
+        "offset": { "x": 0, "y": 0 }
+      }
+    ]
+  },
+  {
+    "name": "新事物",
+    "characters": [
+      {
+        "name": "杀手 衫斯",
+        "desc": "在与猹达成协议后，他加入了他们对地下世界的屠杀，只为能再次感受到些什么。\n\n在这期间，随着体内 决心 不断积聚，他的物理形态也发生了改变。\n\n他不太能坦然面对自己做过的那些事。",
+        "authors": "* RAHAFWABAS",
+        "image": "game/ui/pause/characterIcons/psychopath",
+        "offset": { "x": 10, "y": 90 }
+      }
+    ]
+  },
+  {
+    "name": "三角符文",
+    "characters": [
+      {
+        "name": "衫斯",
+        "desc": "就是 三角符文 里那个普通的老衫斯。",
+        "authors": "* Toby Fox",
+        "image": "game/ui/pause/characterIcons/bargain",
+        "offset": { "x": 0, "y": 100 }
+      },
+      {
+        "name": "克里斯",
+        "desc": "黑虎掏心，小子。",
+        "authors": "* Toby Fox",
+        "image": "game/ui/pause/characterIcons/Kris",
+        "offset": { "x": 10, "y": 90 }
+      }
+    ]
+  },
+  {
+    "name": "双尘",
+    "characters": [
+      {
+        "name": "衫斯",
+        "desc": "这个 \"双尘\" 是 尘埃传说2.0 屠杀结局中的衫斯。\n\n因一次次失败而积郁的挫败感，他决定大肆杀戮。在这个过程中，他获得了足以撕裂时间线的力量，得以继续这场永无止境的屠杀狂欢，而变得愈发强大。",
+        "authors": "* CARNO-POWER",
+        "image": "game/ui/pause/characterIcons/vindication",
+        "offset": { "x": 20, "y": 95 }
+      }
+    ]
+  },
+  {
+    "name": "额外",
+    "characters": [
+      {
+        "name": "种族灭绝",
+        "desc": "该死的邪恶衫斯，他要把你杀了!",
+        "authors": "* MYASS41",
+        "image": "game/ui/pause/characterIcons/genocides",
+        "offset": { "x": 0 , "y": 20 }
+      },
+      {
+        "name": "帕派瑞斯.exe",
+        "desc": "超级邪恶的帕派瑞斯，他拥有邪恶的魔法力量，还会制作能够杀死你的血腥意大利面!",
+        "authors": "* KWYSOCKI243",
+        "image": "game/ui/pause/characterIcons/genocides_2",
+        "offset": { "x": -35 , "y": 5 }
+      },
+      {
+        "name": "Thero",
+        "desc": "*占位符",
+        "authors": "* LEMONEMY",
+        "image": "game/ui/pause/characterIcons/thero",
+        "offset": { "x": -35 , "y": 5 }
+      }
+    ]
+  }
+]
