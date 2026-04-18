@@ -25,6 +25,9 @@ static function load_save() {
     FlxG.save.data.dustinSeenUnlockAnims ??= [];
     FlxG.save.data.dustinCash ??= 0;
     FlxG.save.data.dustinBeatEverything ??= false;
+    FlxG.save.data.countervis ??= false;
+    FlxG.save.data.datavis ??= false;
+    FlxG.save.data.noteqq ??= false;
 
     FlxG.save.data.dustinMigrated = true;
 

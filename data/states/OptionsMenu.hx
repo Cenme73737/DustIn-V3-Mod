@@ -146,6 +146,14 @@ function update(elapsed:Float) {
                     //    menu.members.remove(menu.members[1]);
                     //if (!FileSystem.exists("dev.txt")) menu.members.shift();
                 case "DUSTIN MUSIC OPTIONS":
+                    var CounterCheckbox:Checkbox = null;
+                    menu.insert(3, CounterCheckbox = new Checkbox("Counter", "显示/隐藏 连击计数器\n开启后即可显示Combo(连击)计数器\n由MIOM提供", "countervis", null, FlxG.save.data));
+                    CounterCheckbox.color = 0xFF48D1CC;
+
+                    var DatasCheckbox:Checkbox = null;
+                    menu.insert(4, DatasCheckbox = new Checkbox("DataShow", "显示/隐藏 数据面板\n开启后即可显示状态面板\n由MIOM提供", "datavis", null, FlxG.save.data));
+                    DatasCheckbox.color = 0xFF00FF15;
+
                     case "CHEAT OPTIONS":
                         var BotPlayCheckbox:Checkbox = null;
                         var BotTextCheckbox:Checkbox = null;
@@ -162,14 +170,17 @@ function update(elapsed:Float) {
                         var vanillaHitboxCheckbox:Checkbox = null;
                         var hardModeCheckbox:Checkbox = null;
                         var bigHitboxCheckbox:Checkbox = null;
+                        var QQNoteCheckbox:Checkbox = null;
 
                         menu.insert(1, vanillaHitboxCheckbox = new Checkbox("Vanilla Hitbox", "打开这个功能后,请不要使用其他Hitbox选项!否则效果可能会叠加,导致Hitbox变得奇怪!\n打开后,Hitbox将会变回Dustin判定(.7),关闭则是CNE判定(1.5),关闭后可使用其他Hitbox选项", "hitb", null, FlxG.save.data));
                         menu.insert(2, bigHitboxCheckbox = new Checkbox("Big Hitbox", "打开这个功能后,请不要使用其他Hitbox选项!否则效果可能会叠加,导致Hitbox变得奇怪!\n判定将乘以2.5倍(仅适用于CNE,请勿开启'Vanilla Hitbox'选项),更大的Hitbox,适合新手!", "bib", null, FlxG.save.data));
                         menu.insert(3, hardModeCheckbox = new Checkbox("Hard Mode", "打开这个功能后,请不要使用其他Hitbox选项!否则效果可能会叠加,导致Hitbox变得奇怪!\n开启后,游戏难度将会提升!(Botplay都玩不过,你更玩不过……)", "ks", null, FlxG.save.data));
+                        menu.insert(4, QQNoteCheckbox = new Checkbox("QQ Note", "开启后,你的按键将变得Q弹!\n由MIOM提供", "noteqq", null, FlxG.save.data));
                         
                         bigHitboxCheckbox.color = 0xFF7CFC00;
                         hardModeCheckbox.color = 0xFFFF4500;
                         vanillaHitboxCheckbox.color = 0xFFFF7F50;
+                        QQNoteCheckbox.color = 0xFF00FFFF;
             }
         }
     }

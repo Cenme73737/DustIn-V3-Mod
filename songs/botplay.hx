@@ -1,9 +1,12 @@
 import funkin.ui.FunkinText;
 import flixel.tweens.FlxTweenType;
 import flixel.util.FlxColor;
+import funkin.game.SplashHandler;
+
 
 public static var HUDcam:HudCamera;
 var botText:FunkinText;
+var fakebotText:FunkinText;
 var botplayEnabled:Bool = false;
 var colorTween:FlxTween;
 var currentColorIndex:Int = 0;
@@ -95,8 +98,10 @@ function setupBotplay() {
 
 // 修复后的颜色循环函数
 function startColorCycle() {
-    if (botText == null) return;
-    
+    //if (botText == null && fakebotText == null) return;
+    if (botText == null) {
+        botText = fakebotText;
+    }
     // 如果已有颜色渐变在进行，则取消它
     if (colorTween != null) {
         colorTween.cancel();
@@ -128,6 +133,39 @@ function startColorCycle() {
 }
 
 function update(elapsed:Float) {
+
+    if (controls.getJustPressed("toggleBotplay") && !FlxG.save.data.botplay && !player.cpu) {
+
+        FlxG.cameras.add(HUDcam = new HudCamera(), false);
+        HUDcam.bgColor = 0x00000000;
+        HUDcam.downscroll = downscroll;
+        fakebotText = new FunkinText(0, 75, FlxG.width, "Temporary\nBOTPLAY");
+        fakebotText.alignment = "center";
+        fakebotText.cameras = [HUDcam];
+        fakebotText.setFormat(Paths.font("fallen-down.ttf"), 20, 0xFFFFFF);
+        add(fakebotText);
+        startColorCycle();
+
+        // 透明度pingpong效果
+        FlxTween.tween(fakebotText, {alpha: 0}, 1, {type: FlxTweenType.PINGPONG, ease: FlxEase.sineInOut});
+
+        player.cpu = !player.cpu;
+
+    }else if (controls.getJustPressed("toggleBotplay") && !FlxG.save.data.botplay && player.cpu) {
+        if (colorTween != null) {
+            colorTween.cancel();
+            colorTween = null;
+        }
+        
+        // 重置颜色索引
+        currentColorIndex = 0;
+        
+        player.cpu = !player.cpu;
+        remove(fakebotText);
+        fakebotText.destroy();
+        fakebotText = null;
+    }
+
     if (botplayEnabled && HUDcam != null) {
         HUDcam.zoom = camHUD.zoom;
         HUDcam.angle = camHUD.angle;
@@ -193,6 +231,11 @@ function toggleBotplay() {
             remove(botText);
             botText.destroy();
             botText = null;
+        }
+        if (fakebotText != null) {
+            remove(fakebotText);
+            fakebotText.destroy();
+            fakebotText = null;
         }
         trace("Botplay disabled");
     }

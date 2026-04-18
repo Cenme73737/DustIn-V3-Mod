@@ -5,7 +5,19 @@
 		"titleCardSubtext": "* 由 Mar Mar\n* 初始版本由 Shiina Mota",
 		"character": "overthrone",
 		"mainColor": "#FFFFFF",
-		"stats": "* 衫斯 58 攻击 15 防御\n* 这个赤鬼。\n* 把所有人都烧成了灰烬。"
+		"stats": "* 衫斯 58 攻击 15 防御\n* 这个赤鬼。\n* 把所有人都烧成了灰烬。",
+		"gameover": {
+			"quote": "切，别再回来了。",
+			"isMonster": false,
+			"sound": "fellsans",
+			"song": "overthrone"
+		},
+		"credits": {
+			"SPRITES": "CHUF, CHEZZAR, ANDREWFLA",
+			"BACKGROUND": "HLOARTS",
+			"CHART": "FROSTIC(Unknown)",
+			"SONG": "MAR MAR, Shiina Mota"
+		}
 	},
 	"opponentModeAllowed": false,
 	"icon": "dustfell-bf",

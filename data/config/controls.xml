@@ -1,0 +1,5 @@
+<controls>
+    <category name="DustIn Options">
+        <control name="toggleBotplay" saveName="toggle_botplay" menuName="Botplay" keyP1="" keyP2=""/>
+    </category>
+</controls>

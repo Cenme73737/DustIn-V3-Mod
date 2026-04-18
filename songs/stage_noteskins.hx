@@ -11,7 +11,7 @@ function create() {
 	}
 	if (stage != null && stage.stageXML != null) {
 		if (stage.stageXML.exists("noteSkin")) noteSkin = stage.stageXML.get("noteSkin");
-		if (stage.stageXML.exists("splashSkin")) splashSkin = stage.stageXML.get("splashSkin");
+		//if (stage.stageXML.exists("splashSkin")) splashSkin = stage.stageXML.get("splashSkin");
 	}
 }
 
@@ -69,6 +69,9 @@ function onPostNoteCreation(e) {
 	}
 }
 
-function onNoteHit(e)
+function onNoteHit(e){
 	if (splashSkin == null) e.showSplash = true;
-	if (FlxG.save.data.splashvis == false) e.showSplash = false;
+	if (FlxG.save.data.splashvis == false) {
+		e.showSplash = false;
+	}
+}

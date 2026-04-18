@@ -1,11 +1,11 @@
-//
+import flixel.util.FlxSort;
 import funkin.backend.system.RotatingSpriteGroup;
 import flixel.text.FlxTextBorderStyle;
 import funkin.game.ComboRating;
-
 public var ratingScale:Float = 0.5;
 public var ratingColor:FlxColor = null;
 public var ratingsGroup:RotatingSpriteGroup;
+public static var ComboCam:HudCamera;
 
 function postCreate() {
     if (timeTxt != null) {
@@ -61,6 +61,7 @@ function postCreate() {
 }
 
 function onPlayerHit(_) {
+
     _.healthGain *= 0.75;
     _.showRating = false;
 
@@ -71,7 +72,7 @@ function onPlayerHit(_) {
         _.rating = 'bad';
     else if (noteDiff > hitWindow * 0.2)
         _.rating = 'good';
-    _.showSplash = Options.splashesEnabled && !_.note.isSustainNote && _.rating == "sick";
+    _.showSplash = FlxG.save.data.splashvis && !_.note.isSustainNote && _.rating == "sick";
 
     if (_.note.extra["overrideRating"] != null)
         _.rating = _.note.extra["overrideRating"];
