@@ -23,12 +23,6 @@ function update(elapsed:Float) {
         if (health >= 0.15) health -= 0.05 * (drainAmount * (didDamage ? .65 : 1)) * elapsed;
         drainTimer -= elapsed;
     }
-    for (k => s in strumLines.members[1].members) {
-        normalStrumPoses[1][k][1] = strumLines.members[0].members[0].y;
-        s.noteAngle = 0;
-        s.x = lerp(s.x, normalStrumPoses[1][k][0] + strumsOffsets[k][0], FlxEase.circInOut(.27));
-        s.y = lerp(s.y, normalStrumPoses[1][k][1] + strumsOffsets[k][1], FlxEase.circInOut(.27));
-    }
     negMultX = lerp(negMultX, desiredMultX, FlxEase.circInOut(.27));
     negMultY = lerp(negMultY, desiredMultY, FlxEase.circInOut(.27));
 
@@ -50,66 +44,6 @@ var desiredHudX:Float = 283.5;
 var hudY:Float = 564;
 var hudTween:FlxTween;
 var strumsb:FixTween;
-/*
-function goDownScroll() {
-    if (!FlxG.save.data.mechanics) return;
-    pluOUT();
-
-    desiredHudX = 283.5; desiredMultX = 0;
-    desiredMultY = -1;
-    hudY = 50;
-    PlayState.instance.downscroll = !PlayState.instance.downscroll;
-    if (hudTween != null) hudTween.cancelChain();
-    if (strumsb != null) strumsb.cancelChain();
-    for (i in 0...4) {
-        strumsOffsets[i][0] = 0;
-        strumsOffsets[i][1] = 506; // 720-50-104-50-10 506
-        strumLines.members[1].members[i].y = 506;
-    }
-    for (i in 0...4) {
-        (new FlxTimer()).start(i*.06, (_) -> {
-            strumsOffsets[i][0] = 0;
-            strumsOffsets[i][1] = 0; // 720-50-104-50-10 506
-            //strumLines.members[1].members[i].angle = 360;
-            //strumLines.members[1].members[i].angle = 360;
-            //FlxTween.cancelTweensOf(strumLines.members[1].members[i]);
-            //FixTween.tween(strumLines.members[1].members[i], {y: 0,angle: -360}, (Conductor.stepCrochet / 1000) * 2.5, {ease: FlxEase.circInOut, onComplete: (_) -> {
-            //    strumLines.members[1].members[i].angle = 360;
-            //}});
-            //strumsOffsets[i][1] = 0;
-            //FixTween.num(506, 0, (Conductor.stepCrochet / 1000) * 4, {ease: FlxEase.circInOut}, (val:Float) -> {
-            //    strumsOffsets[i][1] = val;
-            //});
-            //strumsOffsets[i][1] = 0; // 720-50-104-50-10 506
-            //strumsb = FixTween.num(360, -360, (Conductor.stepCrochet / 1000) * 6, {ease: FlxEase.circInOut}, (vals:Float) -> {
-            //    strumLines.members[1].members[i].angle = vals;
-            //});
-            FlxTween.tween(strumLines.members[1].members[i], {angle: 360}, (Conductor.stepCrochet / 1000) * 6, {ease: FlxEase.circOut, onComplete: (_) -> {
-                strumLines.members[1].members[i].angle = 0;
-            }});
-            FlxTween.tween(strumLines.members[0].members[i], {angle: 360}, (Conductor.stepCrochet / 1000) * 6, {ease: FlxEase.circOut, onComplete: (_) -> {
-                strumLines.members[0].members[i].angle = 0;
-            }});
-        });
-    }
-    /*
-    hudTween = FlxTween.num(hudY, 564+300, (Conductor.stepCrochet / 1000) * 4.5, {ease: FlxEase.circInOut}, (val:Float) -> {
-        hudY = val;
-    }).then(
-        hudTween = FlxTween.num(-400, 50, (Conductor.stepCrochet / 1000) * 4.5, {ease: FlxEase.circInOut}, (val:Float) -> {
-            hudY = val;
-        })
-    );
-    
-    hudTween = FlxTween.num(hudY, -400, (Conductor.stepCrochet / 1000) * 4.5, {ease: FlxEase.circInOut}, (val:Float) -> {
-        hudY = val;
-    }).then(
-        hudTween = FlxTween.num(564+300, 564, (Conductor.stepCrochet / 1000) * 4.5, {ease: FlxEase.circInOut}, (val:Float) -> {
-            hudY = val;
-        })
-    );
-
-}*/
 
 function goDownScroll() {
     if (!FlxG.save.data.mechanics) return;
@@ -123,31 +57,26 @@ function goDownScroll() {
     if (strumsb != null) strumsb.cancelChain();
     for (i in 0...4) {
         strumsOffsets[i][0] = 0;
-        strumsOffsets[i][1] = 506; // 720-50-104-50-10 506
-        strumLines.members[1].members[i].y = 506;
+        strumsOffsets[i][1] = 520; // 720-50-104-50-10 506
+        strumLines.members[1].members[i].y = 520;
     }
+    for (sl in strumLines.members) {
+        for (i in 0...4) {
+		    if (sl.cpu) {
+                sl.members[i].y = 520;
+		    }
+        }
+	}
     for (i in 0...4) {
         (new FlxTimer()).start(i*.06, (_) -> {
             strumsOffsets[i][0] = 0;
-            strumsOffsets[i][1] = 0;
-            //strumLines.members[1].members[i].angle = 0;
-            //strumLines.members[1].members[i].angle = 0;
-            //strumsOffsets[i][1] = 0;
-            //FlxTween.cancelTweensOf(strumLines.members[1].members[i]);
-            //FixTween.tween(strumLines.members[1].members[i], {y: 0,angle: -360}, (Conductor.stepCrochet / 1000) * 2.5, {ease: FlxEase.circInOut, onComplete: (_) -> {
-            //    strumLines.members[1].members[i].angle = 360;
-            //}});
-            //strumsOffsets[i][1] = 0; // 720-50-104-50-10
-            //FixTween.num(506, 0, (Conductor.stepCrochet / 1000) * 4, {ease: FlxEase.circInOut}, (val:Float) -> {
-            //    strumsOffsets[i][1] = val;
-            //});
-            //strumsb = FixTween.num(360, -360, (Conductor.stepCrochet / 1000) * 6, {ease: FlxEase.circInOut}, (vals:Float) -> {
-            //    strumLines.members[1].members[i].angle = vals;
-            //});
-            FlxTween.tween(strumLines.members[1].members[i], {angle: -360}, (Conductor.stepCrochet / 1000) * 6, {ease: FlxEase.circOut, onComplete: (_) -> {
+            strumsOffsets[i][1] = 0; // 720-50-104-50-10
+            FlxTween.cancelTweensOf(strumLines.members[1].members[i]);
+            FlxTween.cancelTweensOf(strumLines.members[0].members[i]);
+            FlxTween.tween(strumLines.members[1].members[i], {y: 50, angle: 360}, (Conductor.stepCrochet / 1000) * 6, {ease: FlxEase.circOut, onComplete: (_) -> {
                 strumLines.members[1].members[i].angle = 0;
             }});
-            FlxTween.tween(strumLines.members[0].members[i], {angle: 360}, (Conductor.stepCrochet / 1000) * 6, {ease: FlxEase.circOut, onComplete: (_) -> {
+            FlxTween.tween(strumLines.members[0].members[i], {y: 50 ,angle: 360}, (Conductor.stepCrochet / 1000) * 6, {ease: FlxEase.circOut, onComplete: (_) -> {
                 strumLines.members[0].members[i].angle = 0;
             }});
         });
@@ -204,31 +133,26 @@ function goUpScroll() {
     if (strumsb != null) strumsb.cancelChain();
     for (i in 0...4) {
         strumsOffsets[i][0] = 0;
-        strumsOffsets[i][1] = 506; // 720-50-104-50-10 506
-        strumLines.members[1].members[i].y = 506;
+        strumsOffsets[i][1] = 520; // 720-50-104-50-10 506
+        strumLines.members[1].members[i].y = 520;
     }
+    for (sl in strumLines.members) {
+        for (i in 0...4) {
+		    if (sl.cpu) {
+                sl.members[i].y = 520;
+		    }
+        }
+	}
     for (i in 0...4) {
         (new FlxTimer()).start(i*.06, (_) -> {
             strumsOffsets[i][0] = 0;
             strumsOffsets[i][1] = 0;
-            //strumLines.members[1].members[i].angle = 0;
-            //strumLines.members[1].members[i].angle = 0;
-            //strumsOffsets[i][1] = 0;
-            //FlxTween.cancelTweensOf(strumLines.members[1].members[i]);
-            //FixTween.tween(strumLines.members[1].members[i], {y: 0,angle: -360}, (Conductor.stepCrochet / 1000) * 2.5, {ease: FlxEase.circInOut, onComplete: (_) -> {
-            //    strumLines.members[1].members[i].angle = 360;
-            //}});
-            //strumsOffsets[i][1] = 0; // 720-50-104-50-10
-            //FixTween.num(506, 0, (Conductor.stepCrochet / 1000) * 4, {ease: FlxEase.circInOut}, (val:Float) -> {
-            //    strumsOffsets[i][1] = val;
-            //});
-            //strumsb = FixTween.num(360, -360, (Conductor.stepCrochet / 1000) * 6, {ease: FlxEase.circInOut}, (vals:Float) -> {
-            //    strumLines.members[1].members[i].angle = vals;
-            //});
-            FlxTween.tween(strumLines.members[1].members[i], {angle: -360}, (Conductor.stepCrochet / 1000) * 6, {ease: FlxEase.circOut, onComplete: (_) -> {
+            FlxTween.cancelTweensOf(strumLines.members[1].members[i]);
+            FlxTween.cancelTweensOf(strumLines.members[0].members[i]);
+            FlxTween.tween(strumLines.members[1].members[i], {y: 50, angle: 360}, (Conductor.stepCrochet / 1000) * 6, {ease: FlxEase.circOut, onComplete: (_) -> {
                 strumLines.members[1].members[i].angle = 0;
             }});
-            FlxTween.tween(strumLines.members[0].members[i], {angle: 360}, (Conductor.stepCrochet / 1000) * 6, {ease: FlxEase.circOut, onComplete: (_) -> {
+            FlxTween.tween(strumLines.members[0].members[i], {y: 50, angle: 360}, (Conductor.stepCrochet / 1000) * 6, {ease: FlxEase.circOut, onComplete: (_) -> {
                 strumLines.members[0].members[i].angle = 0;
             }});
         });

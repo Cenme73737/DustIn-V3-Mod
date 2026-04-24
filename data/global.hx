@@ -4,6 +4,7 @@ importScript("data/global_saves");
 importScript("data/global_utils");
 importScript("data/global_window");
 importScript("data/global_FPS");
+importScript("data/changer");
 
 import funkin.backend.utils.NativeAPI;
 import funkin.backend.utils.WindowUtils;
@@ -44,6 +45,8 @@ function preStateCreate() {
         -130,
         1
     );
+
+    FlxG.save.data.modVersion = "1.2.3-Stable";// ← 这里修改版本号显示 Stable 或 Preview
 }
 
 function initCustomSprite(imgPath:String, initX:Float, initY:Float, initAlpha:Float) {

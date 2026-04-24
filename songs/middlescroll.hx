@@ -73,15 +73,6 @@ function postCreate() {
 	camUI.downscroll = Options.downscroll;
 
 	scoreGroup = new FlxGroup();
-	
-
-	if (FlxG.save.data.middlescrollOption)
-		for (sl in strumLines.members)
-			for (i in 0...4) {
-				sl.members[i].visible = !sl.cpu;
-				sl.members[i].x = 425 + (Note.swagWidth * i);
-			}
-	
 	if (FlxG.save.data.strumbg) {
 		for (sl in strumLines.members) {
 			if (sl.cpu!=true) {
@@ -96,7 +87,22 @@ function postCreate() {
 		}
 	}
 }
-
+function update(elapsed:Float) {
+	if (FlxG.save.data.middlescrollOption)
+		for (sl in strumLines.members)
+			for (i in 0...4) {
+				//sl.members[i].visible = !sl.cpu;
+				if (!sl.cpu){
+					sl.members[i].x = 425 + (Note.swagWidth * i);
+				} else {
+					if (i <= 1){
+						sl.members[i].x = 100 + (Note.swagWidth * i);
+					}else{
+						sl.members[i].x = 700 + (Note.swagWidth * i);
+					}
+				}
+			}
+}
 	function postUpdate() {
 
 	healthBar.value = healthBar.value+0.6*(health-healthBar.value);

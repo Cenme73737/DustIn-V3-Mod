@@ -25,20 +25,8 @@ static function load_save() {
     FlxG.save.data.dustinSeenUnlockAnims ??= [];
     FlxG.save.data.dustinCash ??= 0;
     FlxG.save.data.dustinBeatEverything ??= false;
-    FlxG.save.data.countervis ??= false;
-    FlxG.save.data.datavis ??= false;
-    FlxG.save.data.noteqq ??= false;
 
     FlxG.save.data.dustinMigrated = true;
-
-    FlxG.save.data.opp ??= false;
-    FlxG.save.data.coop ??= false;
-    FlxG.save.data.decf ??= 14;
-    FlxG.save.data.hudvis ??= true;
-    
-    if (FlxG.save.data.fulls == null){
-        FlxG.save.data.fulls = false;
-    }
 
     load_shaders_data();
 

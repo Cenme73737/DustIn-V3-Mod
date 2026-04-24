@@ -133,7 +133,9 @@ function startColorCycle() {
 }
 
 function update(elapsed:Float) {
-
+    if (!FlxG.save.data.bottextvis) {
+        songScore = 0;
+    }
     if (controls.getJustPressed("toggleBotplay") && !FlxG.save.data.botplay && !player.cpu) {
 
         FlxG.cameras.add(HUDcam = new HudCamera(), false);
