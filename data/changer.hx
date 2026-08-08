@@ -24,14 +24,65 @@ function update(elapsed:Float) {
     }else if (FlxG.save.data.coop == true) {
         FlxG.save.data.opp = false;
     }
+    if (FlxG.save.data.decf == 0 || FlxG.save.data.decf == null) {
+        FlxG.save.data.decf = 14;
+    }
+    if (FlxG.save.data.brspeed == 0 || FlxG.save.data.brspeed == null) {
+        FlxG.save.data.brspeed = 4;
+    }
+    if (FlxG.save.data.brold == true) {
+        FlxG.save.data.brfix = true;
+    }
+    if (FlxG.save.data.brfix == false) {
+        FlxG.save.data.brold = false;
+    }
+    if (FlxG.save.data.modVersion.indexOf("Stable") == -1) {
+        FlxG.save.data.specialwarning = false;
+    }
 }
 function postcreate() {
     FlxG.save.data.opp ??= false;
     FlxG.save.data.coop ??= false;
+    if (FlxG.save.data.decf == 0) {
+        FlxG.save.data.decf = 14;
+    }
+    if (FlxG.save.data.brspeed == 0) {
+        FlxG.save.data.brspeed = 4;
+    }
     FlxG.save.data.decf ??= 14;
     FlxG.save.data.hudvis ??= true;
-    
+    FlxG.save.data.brfix ??= true;
+    FlxG.save.data.brold ??= false;
+    FlxG.save.data.brspeed ??= 4;
+
     if (FlxG.save.data.fulls == null){
         FlxG.save.data.fulls = false;
     }
+    FlxG.save.data.smdev ??= "disabled";
+    FlxG.save.data.pushhealth ??= "disabled";
+    FlxG.save.data.unlocksong ??= false;
+    FlxG.save.data.specialwarning ??= false;
+}
+function create() {
+    FlxG.save.data.opp ??= false;
+    FlxG.save.data.coop ??= false;
+    if (FlxG.save.data.decf == 0) {
+        FlxG.save.data.decf = 14;
+    }
+    if (FlxG.save.data.brspeed == 0) {
+        FlxG.save.data.brspeed = 4;
+    }
+    FlxG.save.data.decf ??= 14;
+    FlxG.save.data.hudvis ??= true;
+    FlxG.save.data.brfix ??= true;
+    FlxG.save.data.brold ??= false;
+    FlxG.save.data.brspeed ??= 4;
+
+    if (FlxG.save.data.fulls == null){
+        FlxG.save.data.fulls = false;
+    }
+    FlxG.save.data.smdev ??= "disabled";
+    FlxG.save.data.pushhealth ??= "disabled";
+    FlxG.save.data.unlocksong ??= false;
+    FlxG.save.data.specialwarning ??= false;
 }

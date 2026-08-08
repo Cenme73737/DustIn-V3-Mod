@@ -15,7 +15,7 @@ function onNoteUpdate(e:NoteUpdateEvent) {
         return;
     }
 
-    var finishedWindow:Float = hitWindow * 0.5 * 2.4 * 1.75;
+    var finishedWindow:Float = hitWindow / 1.5 * 0.4 * 0.5 * 2.4 * 1.75;
     var startWindow:Float = finishedWindow * 2.6;
     var timeUntilNote:Float = note.strumTime - Conductor.songPosition;
 
@@ -26,7 +26,7 @@ function onNoteUpdate(e:NoteUpdateEvent) {
     var startX:Float = posx - ((FlxG.width * 0.75) - (FlxG.width * 0.25));
 
     var progress:Float = 1 - ((timeUntilNote - finishedWindow) / (startWindow - finishedWindow));
-    progress = FlxEase.circInOut(FlxMath.bound(progress, 0, 1));
+    progress = FlxEase.circOut(FlxMath.bound(progress, 0, 1));
     if (!FlxG.save.data.mechanics) progress = 1; 
 
     var lerpedX:Float = 0;

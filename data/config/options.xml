@@ -3,11 +3,15 @@
     在这里调整你的Dustin歌曲选项
     如Hitbox大小,练习模式等……
     更有Hard Mode供你挑战!
-修改版版本 v1.2.3(2026.3)
+修改版版本 v1.2.4(2026.4 至 2026.8)
 ">
     <menu name="HITBOX OPTIONS" desc="更改原版Hitbox、Hard Mode等选项" >
     </menu>
     <menu name="CHEAT OPTIONS" desc="更改一些作弊选项,如Botplay等……" >
+    </menu>
+    <menu name="About BR FIX" desc="目前Brocken Reality的修复已默认运行,如需调整请自行修改
+    mods/dustin/songs/broken-reality/scripts中的Change_Strum_v3.hx文件配置区
+    " >
     </menu>
 </menu>
 

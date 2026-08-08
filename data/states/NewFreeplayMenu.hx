@@ -142,8 +142,7 @@ function create() {
         var boxBG = new FunkinSprite().makeSolid(boxOutline.width - outlineSize / 2, boxOutline.height - outlineSize / 2, 0xFF000000);
         boxBG.setPosition(boxOutline.x + boxOutline.width / 2 - boxBG.width / 2, boxOutline.y + boxOutline.height / 2 - boxBG.height / 2);
         add(boxBG);
-
-        var nameTxt = new FunkinText(0, 0, boxBG.width, FlxG.save.data.dustinBoughtStuff.contains(song.name.toLowerCase()) ? song.displayName : hideStr(song.displayName), 36, false);
+        var nameTxt = new FunkinText(0, 0, boxBG.width, (FlxG.save.data.dustinBoughtStuff.contains(song.name.toLowerCase()) || FlxG.save.data.unlocksong) ? song.displayName : hideStr(song.displayName), 36, false);
         nameTxt.setFormat(Paths.font("UT.ttf"), 36, 0xFFFFFFFF);
         nameTxt.setPosition(boxBG.x + boxBG.width / 2 - nameTxt.width / 2, boxBG.y);
         nameTxt.alignment = "center";
@@ -154,8 +153,7 @@ function create() {
         add(divider);
 
         // === CREDITS DISPLAY (split by category) ===
-        var creditData = song.customValues != null && FlxG.save.data.dustinBoughtStuff.contains(song.name.toLowerCase()) ? song.customValues.credits : null;
-
+        creditData = song.customValues != null && (FlxG.save.data.dustinBoughtStuff.contains(song.name.toLowerCase()) || FlxG.save.data.unlocksong) ? song.customValues.credits : null;
         var creditFields = ["SONG", "SPRITES", "BACKGROUND", "CHART"];
         var creditLabels = ["曲师", "精灵画师", "背景画师", "谱师"];
         var creditColors = [0xFF1db2f0, 0xFFf50334, 0xFFbe2879, 0xFFa31be0];
@@ -343,7 +341,7 @@ function changeSelection(amt:Int, force:Bool = false) {
         oldstatic.strength = 260;
         tape_noise.strength = 4;
 
-        if (FlxG.save.data.dustinBoughtStuff.contains(boxes[curSelected].song.name.toLowerCase())) {
+        if (FlxG.save.data.dustinBoughtStuff.contains(boxes[curSelected].song.name.toLowerCase()) || FlxG.save.data.unlocksong) {
             FlxTween.num(60, 5, 0.5, {ease: FlxEase.quadOut}, function(val:Float) {
                 oldstatic.strength = val;
             });
@@ -355,10 +353,10 @@ function changeSelection(amt:Int, force:Bool = false) {
     }
 
     for (i => p in portraits)
-        p.alpha = curSelected == p.ID && FlxG.save.data.dustinBoughtStuff.contains(boxes[curSelected].song.name.toLowerCase()) ? 1 : 0.0001;
+        p.alpha = curSelected == p.ID && (FlxG.save.data.dustinBoughtStuff.contains(boxes[curSelected].song.name.toLowerCase()) || FlxG.save.data.unlocksong) ? 1 : 0.0001;
 
     seedeeznuts.playAnim(boxes[curSelected].song.name.toLowerCase());
-    seedeeznuts.visible = FlxG.save.data.dustinBoughtStuff.contains(boxes[curSelected].song.name.toLowerCase());
+    seedeeznuts.visible = FlxG.save.data.dustinBoughtStuff.contains(boxes[curSelected].song.name.toLowerCase()) || FlxG.save.data.unlocksong;
     FlxTween.cancelTweensOf(seedeeznuts);
     seedeeznuts.x = FlxG.width * 0.9 - seedeeznuts.width / 2 + 35;
     FlxTween.tween(seedeeznuts, {x: FlxG.width * 0.9 - seedeeznuts.width / 2 }, 0.4, {
@@ -375,7 +373,7 @@ var angleoffset:Float = 0;
 
 
 function selectSong() {
-    if (!FlxG.save.data.dustinBoughtStuff.contains(boxes[curSelected].song.name.toLowerCase())) return allowInput = true;
+    if (!FlxG.save.data.dustinBoughtStuff.contains(boxes[curSelected].song.name.toLowerCase()) && !FlxG.save.data.unlocksong) return allowInput = true;
     var curBox = boxes[curSelected];
     PlayState.loadSong(curBox.song.name, curBox.song.difficulties[0], FlxG.save.data.opp, FlxG.save.data.coop);
 

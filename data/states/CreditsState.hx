@@ -86,8 +86,8 @@ function create() {
     background.screenCenter();
     add(background);
 
-    shText = new FlxText(0, 500, 500, "按回车键\n聆听回音\n目前修改版版本:v1.2.3", 40, true);
-    shText.setFormat(Paths.font("8bit-jve.ttf"), 40, 0x00F7FF, FlxTextAlign.CENTER);
+    shText = new FlxText(0, 500, 500, "按回车键\n聆听回音\n当前修改版版本:v"+FlxG.save.data.gameVersion+"\n你已经更新到最新修改版版本", 40, true);
+    shText.setFormat(Paths.font("8bit-jve.ttf"), 35, 0x00F7FF, FlxTextAlign.CENTER);
     shText.x = FlxG.width / 2 - shText.width / 2;
     shText.y = FlxG.height - 30 - shText.height;
     add(shText);

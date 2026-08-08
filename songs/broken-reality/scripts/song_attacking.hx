@@ -105,7 +105,7 @@ function doAttack() {
     boyfriend.playAnim("attack_prep", true);
 
     stealCamera = true;
-
+    
     FlxTween.num(1, 0, (Conductor.stepCrochet / 1000) * 2, {ease: FlxEase.quadOut}, (v:Float) -> {
         for (obj in [dustinHealthBG, dustinHealthBar, dustiniconP1, dustiniconP2]) obj.alpha = v;
     });

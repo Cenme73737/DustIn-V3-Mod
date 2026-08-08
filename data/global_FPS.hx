@@ -23,7 +23,7 @@ function postStateSwitch() {
     Framerate.memoryCounter.memoryPeakText.defaultTextFormat = new TextFormat(Paths.getFontName(Paths.font('DTM-Mono.ttf')), 15, -1);
 
     Framerate.fpsCounter.fpsLabel.text = "FPS";
-    Framerate.codenameBuildField.text = "\n周五夜幕 尘埃落V3\n修改版" + FlxG.save.data.modVersion + "已生效";
+    Framerate.codenameBuildField.text = "\n周五夜幕 尘埃落V3\n修改版" + FlxG.save.data.gameVersion + "已生效";
 
     // 新增静态文本（避免与FPS计数器重叠，放在下方）
     if (FlxG.save.data.modVersion.indexOf("Stable") == -1) {
@@ -45,7 +45,7 @@ function postStateSwitch() {
             rainbowText.y = 0;                    // 可自行调整Y值
             rainbowText.autoSize = TextFieldAutoSize.LEFT;
             rainbowText.selectable = false;
-            rainbowText.text = "FND" + FlxG.save.data.modVersion + "\nGamePlay is not Final";     // ← 这里修改你想要显示的文字
+            rainbowText.text = "FND" + FlxG.save.data.modVersion + "\nGamePlay is The Final";     // ← 这里修改你想要显示的文字
             FlxG.stage.addChild(rainbowText);
             FlxG.stage.setChildIndex(rainbowText, FlxG.stage.numChildren - 1); // 确保在最上层
         }

@@ -154,6 +154,19 @@ function update(elapsed:Float) {
                     menu.insert(4, DatasCheckbox = new Checkbox("DataShow", "显示/隐藏 数据面板\n开启后即可显示状态面板\n由MIOM提供", "datavis", null, FlxG.save.data));
                     DatasCheckbox.color = 0xFF00FF15;
 
+                    var UnlockCheckbox:Checkbox = null;
+                    menu.insert(5, UnlockCheckbox = new Checkbox("Unlock", "显示/隐藏 解锁面板\n开启后即可暂时解锁所有歌曲", "unlocksong", null, FlxG.save.data));
+                    UnlockCheckbox.color = 0xFF40E0D0;
+
+                    var specialwarningCheckbox:Checkbox = null;
+                    if (FlxG.save.data.modVersion.indexOf("Stable") == -1) var specialwtext = "\n在测试版中你不能跳过此警告"
+                        else var specialwtext = "\n你现在是正式版,可以选择跳过这个警告";
+                    menu.insert(6, specialwarningCheckbox = new Checkbox("Skip SW", "跳过 特殊警告\n开启后将跳过特殊警告" + specialwtext, "specialwarning", null, FlxG.save.data));
+                    specialwarningCheckbox.color = 0xFFFE2323;
+                    if (FlxG.save.data.modVersion.indexOf("Stable") == -1) {
+                        specialwarningCheckbox.locked = true;
+                        specialwarningCheckbox.checked = false;
+                    }
                     case "CHEAT OPTIONS":
                         var BotPlayCheckbox:Checkbox = null;
                         var BotTextCheckbox:Checkbox = null;

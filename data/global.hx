@@ -20,10 +20,10 @@ import Sys;
 var customSprite:FunkinSprite = null;
 
 function new() {
+	
     Handle.init([]);
 
     load_save();
-
 
     initCustomSprite(
         "懒人汉化组",
@@ -46,7 +46,8 @@ function preStateCreate() {
         1
     );
 
-    FlxG.save.data.modVersion = "1.2.3-Stable";// ← 这里修改版本号显示 Stable 或 Preview
+    FlxG.save.data.modVersion = "1.2.4-Preview";// ← 这里修改版本号显示 Stable 或 Preview
+    FlxG.save.data.gameVersion = "1.2.4";
 }
 
 function initCustomSprite(imgPath:String, initX:Float, initY:Float, initAlpha:Float) {

@@ -105,7 +105,7 @@ function onPlayerHit(_) {
     switch (_.rating) {
         case "sick":
             comboRating.scale.x *= .8; comboRating.scale.y *= .8;
-            // FlxTween.color(comboRating, .2, 0xFF4EA34E, 0xFFFFFFFF, {ease: FlxEase.circInOut});
+            FlxTween.color(comboRating, .2, 0xFF4EA34E, 0xFFFFFFFF, {ease: FlxEase.circInOut});
             var randomBigScale:Float = FlxG.random.float(1.3, 1.6); // snazzy ik ik -lunar
             FlxTween.tween(comboRating, {'scale.x': comboRating.scale.x*randomBigScale, 'scale.y': comboRating.scale.x*randomBigScale}, FlxG.random.float(.075, .125), {ease: FlxEase.circInOut, onComplete: (_) -> {
                 FlxTween.tween(comboRating, {'scale.x': comboRating.scale.x*.4, 'scale.y': comboRating.scale.x*.4, alpha: 0, angle: FlxG.random.float(0, 30) * FlxG.random.sign()}, .1+FlxG.random.float(.175, .255), {ease: FlxEase.circInOut, onComplete: (_) -> {
