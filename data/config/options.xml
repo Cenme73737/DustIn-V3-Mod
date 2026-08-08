@@ -9,7 +9,7 @@
     </menu>
     <menu name="CHEAT OPTIONS" desc="更改一些作弊选项,如Botplay等……" >
     </menu>
-    <menu name="About BR FIX" desc="目前Brocken Reality的修复已默认运行,如需调整请自行修改
+    <menu name="About BR FIX" desc="目前Broken Reality的修复已默认运行,如需调整请自行修改
     mods/dustin/songs/broken-reality/scripts中的Change_Strum_v3.hx文件配置区
     " >
     </menu>
